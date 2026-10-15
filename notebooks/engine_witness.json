@@ -1,0 +1,3140 @@
+{
+ "about": "Trips worked out by the site's own engine (src/mobility.js), saved so the audit notebooks can check them against the timetable and the Google Maps benchmark.",
+ "groceryRun": {
+  "from": {
+   "lat": 39.82265062728413,
+   "lon": -84.20093547527365
+  },
+  "store": {
+   "id": "retailer-460",
+   "name": "Wal-Mart Supercenter #3783",
+   "lat": 39.8459332670001,
+   "lon": -84.196461311
+  },
+  "period": "offPeak",
+  "departures": {
+   "firstMin": 600,
+   "lastMin": 810,
+   "everyMin": 10
+  },
+  "shopMins": [
+   40,
+   50
+  ],
+  "legs": [
+   {
+    "direction": "there",
+    "leaveAt": 600,
+    "totalMin": 30.844911164599267,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Dixie @ Division",
+      "minutes": 4.946544025375688,
+      "miles": 0.24732720126878438
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Dixie @ Division",
+      "minutes": 19.653455974624308,
+      "busLeavesAt": 624.6
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Dixie @ Division",
+      "toStop": "Walmart @ York Commons",
+      "minutes": 4.399999999999977,
+      "miles": 1.8667439683804254,
+      "departsAt": 624.6,
+      "arrivesAt": 629
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     }
+    ]
+   },
+   {
+    "direction": "back",
+    "leaveAt": 670.8449111645992,
+    "totalMin": 17.146747573653325,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 5.310177670801409,
+      "busLeavesAt": 678
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Walmart @ York Commons",
+      "toStop": "Dixie @ Palisades",
+      "minutes": 5.4669999999999845,
+      "miles": 2.1261266970688686,
+      "departsAt": 678,
+      "arrivesAt": 683.467
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Dixie @ Palisades",
+      "minutes": 4.524658738252635,
+      "miles": 0.22623293691263174
+     }
+    ]
+   },
+   {
+    "direction": "back",
+    "leaveAt": 680.8449111645992,
+    "totalMin": 63.14674757365332,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 51.31017767080141,
+      "busLeavesAt": 734
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Walmart @ York Commons",
+      "toStop": "Dixie @ Palisades",
+      "minutes": 5.4669999999999845,
+      "miles": 2.1261266970688686,
+      "departsAt": 734,
+      "arrivesAt": 739.467
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Dixie @ Palisades",
+      "minutes": 4.524658738252635,
+      "miles": 0.22623293691263174
+     }
+    ]
+   },
+   {
+    "direction": "there",
+    "leaveAt": 610,
+    "totalMin": 20.844911164599267,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Dixie @ Division",
+      "minutes": 4.946544025375688,
+      "miles": 0.24732720126878438
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Dixie @ Division",
+      "minutes": 9.653455974624308,
+      "busLeavesAt": 624.6
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Dixie @ Division",
+      "toStop": "Walmart @ York Commons",
+      "minutes": 4.399999999999977,
+      "miles": 1.8667439683804254,
+      "departsAt": 624.6,
+      "arrivesAt": 629
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     }
+    ]
+   },
+   {
+    "direction": "back",
+    "leaveAt": 670.8449111645992,
+    "totalMin": 17.146747573653325,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 5.310177670801409,
+      "busLeavesAt": 678
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Walmart @ York Commons",
+      "toStop": "Dixie @ Palisades",
+      "minutes": 5.4669999999999845,
+      "miles": 2.1261266970688686,
+      "departsAt": 678,
+      "arrivesAt": 683.467
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Dixie @ Palisades",
+      "minutes": 4.524658738252635,
+      "miles": 0.22623293691263174
+     }
+    ]
+   },
+   {
+    "direction": "back",
+    "leaveAt": 680.8449111645992,
+    "totalMin": 63.14674757365332,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 51.31017767080141,
+      "busLeavesAt": 734
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Walmart @ York Commons",
+      "toStop": "Dixie @ Palisades",
+      "minutes": 5.4669999999999845,
+      "miles": 2.1261266970688686,
+      "departsAt": 734,
+      "arrivesAt": 739.467
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Dixie @ Palisades",
+      "minutes": 4.524658738252635,
+      "miles": 0.22623293691263174
+     }
+    ]
+   },
+   {
+    "direction": "there",
+    "leaveAt": 620,
+    "totalMin": 67.84491116459927,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Dixie @ Division",
+      "minutes": 4.946544025375688,
+      "miles": 0.24732720126878438
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Dixie @ Division",
+      "minutes": 56.65345597462431,
+      "busLeavesAt": 681.6
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Dixie @ Division",
+      "toStop": "Walmart @ York Commons",
+      "minutes": 4.399999999999977,
+      "miles": 1.8667439683804254,
+      "departsAt": 681.6,
+      "arrivesAt": 686
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     }
+    ]
+   },
+   {
+    "direction": "back",
+    "leaveAt": 727.8449111645992,
+    "totalMin": 16.146747573653325,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 4.310177670801409,
+      "busLeavesAt": 734
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Walmart @ York Commons",
+      "toStop": "Dixie @ Palisades",
+      "minutes": 5.4669999999999845,
+      "miles": 2.1261266970688686,
+      "departsAt": 734,
+      "arrivesAt": 739.467
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Dixie @ Palisades",
+      "minutes": 4.524658738252635,
+      "miles": 0.22623293691263174
+     }
+    ]
+   },
+   {
+    "direction": "back",
+    "leaveAt": 737.8449111645992,
+    "totalMin": 64.14674757365333,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 52.31017767080141,
+      "busLeavesAt": 792
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Walmart @ York Commons",
+      "toStop": "Dixie @ Palisades",
+      "minutes": 5.4669999999999845,
+      "miles": 2.1261266970688686,
+      "departsAt": 792,
+      "arrivesAt": 797.467
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Dixie @ Palisades",
+      "minutes": 4.524658738252635,
+      "miles": 0.22623293691263174
+     }
+    ]
+   },
+   {
+    "direction": "there",
+    "leaveAt": 630,
+    "totalMin": 57.84491116459927,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Dixie @ Division",
+      "minutes": 4.946544025375688,
+      "miles": 0.24732720126878438
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Dixie @ Division",
+      "minutes": 46.65345597462431,
+      "busLeavesAt": 681.6
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Dixie @ Division",
+      "toStop": "Walmart @ York Commons",
+      "minutes": 4.399999999999977,
+      "miles": 1.8667439683804254,
+      "departsAt": 681.6,
+      "arrivesAt": 686
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     }
+    ]
+   },
+   {
+    "direction": "back",
+    "leaveAt": 727.8449111645992,
+    "totalMin": 16.146747573653325,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 4.310177670801409,
+      "busLeavesAt": 734
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Walmart @ York Commons",
+      "toStop": "Dixie @ Palisades",
+      "minutes": 5.4669999999999845,
+      "miles": 2.1261266970688686,
+      "departsAt": 734,
+      "arrivesAt": 739.467
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Dixie @ Palisades",
+      "minutes": 4.524658738252635,
+      "miles": 0.22623293691263174
+     }
+    ]
+   },
+   {
+    "direction": "back",
+    "leaveAt": 737.8449111645992,
+    "totalMin": 64.14674757365333,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 52.31017767080141,
+      "busLeavesAt": 792
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Walmart @ York Commons",
+      "toStop": "Dixie @ Palisades",
+      "minutes": 5.4669999999999845,
+      "miles": 2.1261266970688686,
+      "departsAt": 792,
+      "arrivesAt": 797.467
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Dixie @ Palisades",
+      "minutes": 4.524658738252635,
+      "miles": 0.22623293691263174
+     }
+    ]
+   },
+   {
+    "direction": "there",
+    "leaveAt": 640,
+    "totalMin": 47.84491116459927,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Dixie @ Division",
+      "minutes": 4.946544025375688,
+      "miles": 0.24732720126878438
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Dixie @ Division",
+      "minutes": 36.65345597462431,
+      "busLeavesAt": 681.6
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Dixie @ Division",
+      "toStop": "Walmart @ York Commons",
+      "minutes": 4.399999999999977,
+      "miles": 1.8667439683804254,
+      "departsAt": 681.6,
+      "arrivesAt": 686
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     }
+    ]
+   },
+   {
+    "direction": "back",
+    "leaveAt": 727.8449111645992,
+    "totalMin": 16.146747573653325,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 4.310177670801409,
+      "busLeavesAt": 734
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Walmart @ York Commons",
+      "toStop": "Dixie @ Palisades",
+      "minutes": 5.4669999999999845,
+      "miles": 2.1261266970688686,
+      "departsAt": 734,
+      "arrivesAt": 739.467
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Dixie @ Palisades",
+      "minutes": 4.524658738252635,
+      "miles": 0.22623293691263174
+     }
+    ]
+   },
+   {
+    "direction": "back",
+    "leaveAt": 737.8449111645992,
+    "totalMin": 64.14674757365333,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 52.31017767080141,
+      "busLeavesAt": 792
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Walmart @ York Commons",
+      "toStop": "Dixie @ Palisades",
+      "minutes": 5.4669999999999845,
+      "miles": 2.1261266970688686,
+      "departsAt": 792,
+      "arrivesAt": 797.467
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Dixie @ Palisades",
+      "minutes": 4.524658738252635,
+      "miles": 0.22623293691263174
+     }
+    ]
+   },
+   {
+    "direction": "there",
+    "leaveAt": 650,
+    "totalMin": 37.84491116459927,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Dixie @ Division",
+      "minutes": 4.946544025375688,
+      "miles": 0.24732720126878438
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Dixie @ Division",
+      "minutes": 26.653455974624308,
+      "busLeavesAt": 681.6
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Dixie @ Division",
+      "toStop": "Walmart @ York Commons",
+      "minutes": 4.399999999999977,
+      "miles": 1.8667439683804254,
+      "departsAt": 681.6,
+      "arrivesAt": 686
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     }
+    ]
+   },
+   {
+    "direction": "back",
+    "leaveAt": 727.8449111645992,
+    "totalMin": 16.146747573653325,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 4.310177670801409,
+      "busLeavesAt": 734
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Walmart @ York Commons",
+      "toStop": "Dixie @ Palisades",
+      "minutes": 5.4669999999999845,
+      "miles": 2.1261266970688686,
+      "departsAt": 734,
+      "arrivesAt": 739.467
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Dixie @ Palisades",
+      "minutes": 4.524658738252635,
+      "miles": 0.22623293691263174
+     }
+    ]
+   },
+   {
+    "direction": "back",
+    "leaveAt": 737.8449111645992,
+    "totalMin": 64.14674757365333,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 52.31017767080141,
+      "busLeavesAt": 792
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Walmart @ York Commons",
+      "toStop": "Dixie @ Palisades",
+      "minutes": 5.4669999999999845,
+      "miles": 2.1261266970688686,
+      "departsAt": 792,
+      "arrivesAt": 797.467
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Dixie @ Palisades",
+      "minutes": 4.524658738252635,
+      "miles": 0.22623293691263174
+     }
+    ]
+   },
+   {
+    "direction": "there",
+    "leaveAt": 660,
+    "totalMin": 27.844911164599267,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Dixie @ Division",
+      "minutes": 4.946544025375688,
+      "miles": 0.24732720126878438
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Dixie @ Division",
+      "minutes": 16.653455974624308,
+      "busLeavesAt": 681.6
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Dixie @ Division",
+      "toStop": "Walmart @ York Commons",
+      "minutes": 4.399999999999977,
+      "miles": 1.8667439683804254,
+      "departsAt": 681.6,
+      "arrivesAt": 686
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     }
+    ]
+   },
+   {
+    "direction": "back",
+    "leaveAt": 727.8449111645992,
+    "totalMin": 16.146747573653325,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 4.310177670801409,
+      "busLeavesAt": 734
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Walmart @ York Commons",
+      "toStop": "Dixie @ Palisades",
+      "minutes": 5.4669999999999845,
+      "miles": 2.1261266970688686,
+      "departsAt": 734,
+      "arrivesAt": 739.467
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Dixie @ Palisades",
+      "minutes": 4.524658738252635,
+      "miles": 0.22623293691263174
+     }
+    ]
+   },
+   {
+    "direction": "back",
+    "leaveAt": 737.8449111645992,
+    "totalMin": 64.14674757365333,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 52.31017767080141,
+      "busLeavesAt": 792
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Walmart @ York Commons",
+      "toStop": "Dixie @ Palisades",
+      "minutes": 5.4669999999999845,
+      "miles": 2.1261266970688686,
+      "departsAt": 792,
+      "arrivesAt": 797.467
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Dixie @ Palisades",
+      "minutes": 4.524658738252635,
+      "miles": 0.22623293691263174
+     }
+    ]
+   },
+   {
+    "direction": "there",
+    "leaveAt": 670,
+    "totalMin": 17.844911164599267,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Dixie @ Division",
+      "minutes": 4.946544025375688,
+      "miles": 0.24732720126878438
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Dixie @ Division",
+      "minutes": 6.653455974624308,
+      "busLeavesAt": 681.6
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Dixie @ Division",
+      "toStop": "Walmart @ York Commons",
+      "minutes": 4.399999999999977,
+      "miles": 1.8667439683804254,
+      "departsAt": 681.6,
+      "arrivesAt": 686
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     }
+    ]
+   },
+   {
+    "direction": "back",
+    "leaveAt": 727.8449111645992,
+    "totalMin": 16.146747573653325,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 4.310177670801409,
+      "busLeavesAt": 734
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Walmart @ York Commons",
+      "toStop": "Dixie @ Palisades",
+      "minutes": 5.4669999999999845,
+      "miles": 2.1261266970688686,
+      "departsAt": 734,
+      "arrivesAt": 739.467
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Dixie @ Palisades",
+      "minutes": 4.524658738252635,
+      "miles": 0.22623293691263174
+     }
+    ]
+   },
+   {
+    "direction": "back",
+    "leaveAt": 737.8449111645992,
+    "totalMin": 64.14674757365333,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 52.31017767080141,
+      "busLeavesAt": 792
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Walmart @ York Commons",
+      "toStop": "Dixie @ Palisades",
+      "minutes": 5.4669999999999845,
+      "miles": 2.1261266970688686,
+      "departsAt": 792,
+      "arrivesAt": 797.467
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Dixie @ Palisades",
+      "minutes": 4.524658738252635,
+      "miles": 0.22623293691263174
+     }
+    ]
+   },
+   {
+    "direction": "there",
+    "leaveAt": 680,
+    "totalMin": 64.84491116459927,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Dixie @ Division",
+      "minutes": 4.946544025375688,
+      "miles": 0.24732720126878438
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Dixie @ Division",
+      "minutes": 53.65345597462431,
+      "busLeavesAt": 738.6
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Dixie @ Division",
+      "toStop": "Walmart @ York Commons",
+      "minutes": 4.399999999999977,
+      "miles": 1.8667439683804254,
+      "departsAt": 738.6,
+      "arrivesAt": 743
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     }
+    ]
+   },
+   {
+    "direction": "back",
+    "leaveAt": 784.8449111645992,
+    "totalMin": 17.146747573653325,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 5.310177670801409,
+      "busLeavesAt": 792
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Walmart @ York Commons",
+      "toStop": "Dixie @ Palisades",
+      "minutes": 5.4669999999999845,
+      "miles": 2.1261266970688686,
+      "departsAt": 792,
+      "arrivesAt": 797.467
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Dixie @ Palisades",
+      "minutes": 4.524658738252635,
+      "miles": 0.22623293691263174
+     }
+    ]
+   },
+   {
+    "direction": "back",
+    "leaveAt": 794.8449111645992,
+    "totalMin": 66.2297475736533,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 55.31017767080141,
+      "busLeavesAt": 852
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Walmart @ York Commons",
+      "toStop": "Dixie @ Palisades",
+      "minutes": 4.5499999999999545,
+      "miles": 2.1261266970688686,
+      "departsAt": 852,
+      "arrivesAt": 856.55
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Dixie @ Palisades",
+      "minutes": 4.524658738252635,
+      "miles": 0.22623293691263174
+     }
+    ]
+   },
+   {
+    "direction": "there",
+    "leaveAt": 690,
+    "totalMin": 54.84491116459927,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Dixie @ Division",
+      "minutes": 4.946544025375688,
+      "miles": 0.24732720126878438
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Dixie @ Division",
+      "minutes": 43.65345597462431,
+      "busLeavesAt": 738.6
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Dixie @ Division",
+      "toStop": "Walmart @ York Commons",
+      "minutes": 4.399999999999977,
+      "miles": 1.8667439683804254,
+      "departsAt": 738.6,
+      "arrivesAt": 743
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     }
+    ]
+   },
+   {
+    "direction": "back",
+    "leaveAt": 784.8449111645992,
+    "totalMin": 17.146747573653325,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 5.310177670801409,
+      "busLeavesAt": 792
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Walmart @ York Commons",
+      "toStop": "Dixie @ Palisades",
+      "minutes": 5.4669999999999845,
+      "miles": 2.1261266970688686,
+      "departsAt": 792,
+      "arrivesAt": 797.467
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Dixie @ Palisades",
+      "minutes": 4.524658738252635,
+      "miles": 0.22623293691263174
+     }
+    ]
+   },
+   {
+    "direction": "back",
+    "leaveAt": 794.8449111645992,
+    "totalMin": 66.2297475736533,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 55.31017767080141,
+      "busLeavesAt": 852
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Walmart @ York Commons",
+      "toStop": "Dixie @ Palisades",
+      "minutes": 4.5499999999999545,
+      "miles": 2.1261266970688686,
+      "departsAt": 852,
+      "arrivesAt": 856.55
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Dixie @ Palisades",
+      "minutes": 4.524658738252635,
+      "miles": 0.22623293691263174
+     }
+    ]
+   },
+   {
+    "direction": "there",
+    "leaveAt": 700,
+    "totalMin": 44.84491116459927,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Dixie @ Division",
+      "minutes": 4.946544025375688,
+      "miles": 0.24732720126878438
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Dixie @ Division",
+      "minutes": 33.65345597462431,
+      "busLeavesAt": 738.6
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Dixie @ Division",
+      "toStop": "Walmart @ York Commons",
+      "minutes": 4.399999999999977,
+      "miles": 1.8667439683804254,
+      "departsAt": 738.6,
+      "arrivesAt": 743
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     }
+    ]
+   },
+   {
+    "direction": "back",
+    "leaveAt": 784.8449111645992,
+    "totalMin": 17.146747573653325,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 5.310177670801409,
+      "busLeavesAt": 792
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Walmart @ York Commons",
+      "toStop": "Dixie @ Palisades",
+      "minutes": 5.4669999999999845,
+      "miles": 2.1261266970688686,
+      "departsAt": 792,
+      "arrivesAt": 797.467
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Dixie @ Palisades",
+      "minutes": 4.524658738252635,
+      "miles": 0.22623293691263174
+     }
+    ]
+   },
+   {
+    "direction": "back",
+    "leaveAt": 794.8449111645992,
+    "totalMin": 66.2297475736533,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 55.31017767080141,
+      "busLeavesAt": 852
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Walmart @ York Commons",
+      "toStop": "Dixie @ Palisades",
+      "minutes": 4.5499999999999545,
+      "miles": 2.1261266970688686,
+      "departsAt": 852,
+      "arrivesAt": 856.55
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Dixie @ Palisades",
+      "minutes": 4.524658738252635,
+      "miles": 0.22623293691263174
+     }
+    ]
+   },
+   {
+    "direction": "there",
+    "leaveAt": 710,
+    "totalMin": 34.84491116459927,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Dixie @ Division",
+      "minutes": 4.946544025375688,
+      "miles": 0.24732720126878438
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Dixie @ Division",
+      "minutes": 23.653455974624308,
+      "busLeavesAt": 738.6
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Dixie @ Division",
+      "toStop": "Walmart @ York Commons",
+      "minutes": 4.399999999999977,
+      "miles": 1.8667439683804254,
+      "departsAt": 738.6,
+      "arrivesAt": 743
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     }
+    ]
+   },
+   {
+    "direction": "back",
+    "leaveAt": 784.8449111645992,
+    "totalMin": 17.146747573653325,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 5.310177670801409,
+      "busLeavesAt": 792
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Walmart @ York Commons",
+      "toStop": "Dixie @ Palisades",
+      "minutes": 5.4669999999999845,
+      "miles": 2.1261266970688686,
+      "departsAt": 792,
+      "arrivesAt": 797.467
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Dixie @ Palisades",
+      "minutes": 4.524658738252635,
+      "miles": 0.22623293691263174
+     }
+    ]
+   },
+   {
+    "direction": "back",
+    "leaveAt": 794.8449111645992,
+    "totalMin": 66.2297475736533,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 55.31017767080141,
+      "busLeavesAt": 852
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Walmart @ York Commons",
+      "toStop": "Dixie @ Palisades",
+      "minutes": 4.5499999999999545,
+      "miles": 2.1261266970688686,
+      "departsAt": 852,
+      "arrivesAt": 856.55
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Dixie @ Palisades",
+      "minutes": 4.524658738252635,
+      "miles": 0.22623293691263174
+     }
+    ]
+   },
+   {
+    "direction": "there",
+    "leaveAt": 720,
+    "totalMin": 24.844911164599267,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Dixie @ Division",
+      "minutes": 4.946544025375688,
+      "miles": 0.24732720126878438
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Dixie @ Division",
+      "minutes": 13.653455974624308,
+      "busLeavesAt": 738.6
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Dixie @ Division",
+      "toStop": "Walmart @ York Commons",
+      "minutes": 4.399999999999977,
+      "miles": 1.8667439683804254,
+      "departsAt": 738.6,
+      "arrivesAt": 743
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     }
+    ]
+   },
+   {
+    "direction": "back",
+    "leaveAt": 784.8449111645992,
+    "totalMin": 17.146747573653325,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 5.310177670801409,
+      "busLeavesAt": 792
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Walmart @ York Commons",
+      "toStop": "Dixie @ Palisades",
+      "minutes": 5.4669999999999845,
+      "miles": 2.1261266970688686,
+      "departsAt": 792,
+      "arrivesAt": 797.467
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Dixie @ Palisades",
+      "minutes": 4.524658738252635,
+      "miles": 0.22623293691263174
+     }
+    ]
+   },
+   {
+    "direction": "back",
+    "leaveAt": 794.8449111645992,
+    "totalMin": 66.2297475736533,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 55.31017767080141,
+      "busLeavesAt": 852
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Walmart @ York Commons",
+      "toStop": "Dixie @ Palisades",
+      "minutes": 4.5499999999999545,
+      "miles": 2.1261266970688686,
+      "departsAt": 852,
+      "arrivesAt": 856.55
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Dixie @ Palisades",
+      "minutes": 4.524658738252635,
+      "miles": 0.22623293691263174
+     }
+    ]
+   },
+   {
+    "direction": "there",
+    "leaveAt": 730,
+    "totalMin": 14.844911164599269,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Dixie @ Division",
+      "minutes": 4.946544025375688,
+      "miles": 0.24732720126878438
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Dixie @ Division",
+      "minutes": 3.6534559746243076,
+      "busLeavesAt": 738.6
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Dixie @ Division",
+      "toStop": "Walmart @ York Commons",
+      "minutes": 4.399999999999977,
+      "miles": 1.8667439683804254,
+      "departsAt": 738.6,
+      "arrivesAt": 743
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     }
+    ]
+   },
+   {
+    "direction": "back",
+    "leaveAt": 784.8449111645992,
+    "totalMin": 17.146747573653325,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 5.310177670801409,
+      "busLeavesAt": 792
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Walmart @ York Commons",
+      "toStop": "Dixie @ Palisades",
+      "minutes": 5.4669999999999845,
+      "miles": 2.1261266970688686,
+      "departsAt": 792,
+      "arrivesAt": 797.467
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Dixie @ Palisades",
+      "minutes": 4.524658738252635,
+      "miles": 0.22623293691263174
+     }
+    ]
+   },
+   {
+    "direction": "back",
+    "leaveAt": 794.8449111645992,
+    "totalMin": 66.2297475736533,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 55.31017767080141,
+      "busLeavesAt": 852
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Walmart @ York Commons",
+      "toStop": "Dixie @ Palisades",
+      "minutes": 4.5499999999999545,
+      "miles": 2.1261266970688686,
+      "departsAt": 852,
+      "arrivesAt": 856.55
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Dixie @ Palisades",
+      "minutes": 4.524658738252635,
+      "miles": 0.22623293691263174
+     }
+    ]
+   },
+   {
+    "direction": "there",
+    "leaveAt": 740,
+    "totalMin": 63.84491116459927,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Dixie @ Division",
+      "minutes": 4.946544025375688,
+      "miles": 0.24732720126878438
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Dixie @ Division",
+      "minutes": 52.65345597462431,
+      "busLeavesAt": 797.6
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Dixie @ Division",
+      "toStop": "Walmart @ York Commons",
+      "minutes": 4.399999999999977,
+      "miles": 1.8667439683804254,
+      "departsAt": 797.6,
+      "arrivesAt": 802
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     }
+    ]
+   },
+   {
+    "direction": "back",
+    "leaveAt": 843.8449111645992,
+    "totalMin": 17.229747573653295,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 6.310177670801409,
+      "busLeavesAt": 852
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Walmart @ York Commons",
+      "toStop": "Dixie @ Palisades",
+      "minutes": 4.5499999999999545,
+      "miles": 2.1261266970688686,
+      "departsAt": 852,
+      "arrivesAt": 856.55
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Dixie @ Palisades",
+      "minutes": 4.524658738252635,
+      "miles": 0.22623293691263174
+     }
+    ]
+   },
+   {
+    "direction": "back",
+    "leaveAt": 853.8449111645992,
+    "totalMin": 64.05163286077644,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 22",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     },
+     {
+      "kind": "wait",
+      "route": "Route 22",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 16.31017767080141,
+      "busLeavesAt": 872
+     },
+     {
+      "kind": "ride",
+      "route": "Route 22",
+      "fromStop": "Walmart @ York Commons",
+      "toStop": "Wagner Ford @ Quick Trip",
+      "minutes": 20.450000000000045,
+      "miles": 6.746109706205362,
+      "departsAt": 872,
+      "arrivesAt": 892.45
+     },
+     {
+      "kind": "transfer",
+      "fromStop": "Wagner Ford @ Quick Trip",
+      "minutes": 14.282999999999902,
+      "busLeavesAt": 906.733
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Dixie @ Wagner-ford",
+      "toStop": "Dixie @ Division",
+      "minutes": 6.217000000000098,
+      "miles": 1.7749870318681717,
+      "departsAt": 906.733,
+      "arrivesAt": 912.95
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Dixie @ Division",
+      "minutes": 4.946544025375688,
+      "miles": 0.24732720126878438
+     }
+    ]
+   },
+   {
+    "direction": "there",
+    "leaveAt": 750,
+    "totalMin": 53.84491116459927,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Dixie @ Division",
+      "minutes": 4.946544025375688,
+      "miles": 0.24732720126878438
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Dixie @ Division",
+      "minutes": 42.65345597462431,
+      "busLeavesAt": 797.6
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Dixie @ Division",
+      "toStop": "Walmart @ York Commons",
+      "minutes": 4.399999999999977,
+      "miles": 1.8667439683804254,
+      "departsAt": 797.6,
+      "arrivesAt": 802
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     }
+    ]
+   },
+   {
+    "direction": "back",
+    "leaveAt": 843.8449111645992,
+    "totalMin": 17.229747573653295,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 6.310177670801409,
+      "busLeavesAt": 852
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Walmart @ York Commons",
+      "toStop": "Dixie @ Palisades",
+      "minutes": 4.5499999999999545,
+      "miles": 2.1261266970688686,
+      "departsAt": 852,
+      "arrivesAt": 856.55
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Dixie @ Palisades",
+      "minutes": 4.524658738252635,
+      "miles": 0.22623293691263174
+     }
+    ]
+   },
+   {
+    "direction": "back",
+    "leaveAt": 853.8449111645992,
+    "totalMin": 64.05163286077644,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 22",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     },
+     {
+      "kind": "wait",
+      "route": "Route 22",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 16.31017767080141,
+      "busLeavesAt": 872
+     },
+     {
+      "kind": "ride",
+      "route": "Route 22",
+      "fromStop": "Walmart @ York Commons",
+      "toStop": "Wagner Ford @ Quick Trip",
+      "minutes": 20.450000000000045,
+      "miles": 6.746109706205362,
+      "departsAt": 872,
+      "arrivesAt": 892.45
+     },
+     {
+      "kind": "transfer",
+      "fromStop": "Wagner Ford @ Quick Trip",
+      "minutes": 14.282999999999902,
+      "busLeavesAt": 906.733
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Dixie @ Wagner-ford",
+      "toStop": "Dixie @ Division",
+      "minutes": 6.217000000000098,
+      "miles": 1.7749870318681717,
+      "departsAt": 906.733,
+      "arrivesAt": 912.95
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Dixie @ Division",
+      "minutes": 4.946544025375688,
+      "miles": 0.24732720126878438
+     }
+    ]
+   },
+   {
+    "direction": "there",
+    "leaveAt": 760,
+    "totalMin": 43.84491116459927,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Dixie @ Division",
+      "minutes": 4.946544025375688,
+      "miles": 0.24732720126878438
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Dixie @ Division",
+      "minutes": 32.65345597462431,
+      "busLeavesAt": 797.6
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Dixie @ Division",
+      "toStop": "Walmart @ York Commons",
+      "minutes": 4.399999999999977,
+      "miles": 1.8667439683804254,
+      "departsAt": 797.6,
+      "arrivesAt": 802
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     }
+    ]
+   },
+   {
+    "direction": "back",
+    "leaveAt": 843.8449111645992,
+    "totalMin": 17.229747573653295,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 6.310177670801409,
+      "busLeavesAt": 852
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Walmart @ York Commons",
+      "toStop": "Dixie @ Palisades",
+      "minutes": 4.5499999999999545,
+      "miles": 2.1261266970688686,
+      "departsAt": 852,
+      "arrivesAt": 856.55
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Dixie @ Palisades",
+      "minutes": 4.524658738252635,
+      "miles": 0.22623293691263174
+     }
+    ]
+   },
+   {
+    "direction": "back",
+    "leaveAt": 853.8449111645992,
+    "totalMin": 64.05163286077644,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 22",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     },
+     {
+      "kind": "wait",
+      "route": "Route 22",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 16.31017767080141,
+      "busLeavesAt": 872
+     },
+     {
+      "kind": "ride",
+      "route": "Route 22",
+      "fromStop": "Walmart @ York Commons",
+      "toStop": "Wagner Ford @ Quick Trip",
+      "minutes": 20.450000000000045,
+      "miles": 6.746109706205362,
+      "departsAt": 872,
+      "arrivesAt": 892.45
+     },
+     {
+      "kind": "transfer",
+      "fromStop": "Wagner Ford @ Quick Trip",
+      "minutes": 14.282999999999902,
+      "busLeavesAt": 906.733
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Dixie @ Wagner-ford",
+      "toStop": "Dixie @ Division",
+      "minutes": 6.217000000000098,
+      "miles": 1.7749870318681717,
+      "departsAt": 906.733,
+      "arrivesAt": 912.95
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Dixie @ Division",
+      "minutes": 4.946544025375688,
+      "miles": 0.24732720126878438
+     }
+    ]
+   },
+   {
+    "direction": "there",
+    "leaveAt": 770,
+    "totalMin": 33.84491116459927,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Dixie @ Division",
+      "minutes": 4.946544025375688,
+      "miles": 0.24732720126878438
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Dixie @ Division",
+      "minutes": 22.653455974624308,
+      "busLeavesAt": 797.6
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Dixie @ Division",
+      "toStop": "Walmart @ York Commons",
+      "minutes": 4.399999999999977,
+      "miles": 1.8667439683804254,
+      "departsAt": 797.6,
+      "arrivesAt": 802
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     }
+    ]
+   },
+   {
+    "direction": "back",
+    "leaveAt": 843.8449111645992,
+    "totalMin": 17.229747573653295,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 6.310177670801409,
+      "busLeavesAt": 852
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Walmart @ York Commons",
+      "toStop": "Dixie @ Palisades",
+      "minutes": 4.5499999999999545,
+      "miles": 2.1261266970688686,
+      "departsAt": 852,
+      "arrivesAt": 856.55
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Dixie @ Palisades",
+      "minutes": 4.524658738252635,
+      "miles": 0.22623293691263174
+     }
+    ]
+   },
+   {
+    "direction": "back",
+    "leaveAt": 853.8449111645992,
+    "totalMin": 64.05163286077644,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 22",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     },
+     {
+      "kind": "wait",
+      "route": "Route 22",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 16.31017767080141,
+      "busLeavesAt": 872
+     },
+     {
+      "kind": "ride",
+      "route": "Route 22",
+      "fromStop": "Walmart @ York Commons",
+      "toStop": "Wagner Ford @ Quick Trip",
+      "minutes": 20.450000000000045,
+      "miles": 6.746109706205362,
+      "departsAt": 872,
+      "arrivesAt": 892.45
+     },
+     {
+      "kind": "transfer",
+      "fromStop": "Wagner Ford @ Quick Trip",
+      "minutes": 14.282999999999902,
+      "busLeavesAt": 906.733
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Dixie @ Wagner-ford",
+      "toStop": "Dixie @ Division",
+      "minutes": 6.217000000000098,
+      "miles": 1.7749870318681717,
+      "departsAt": 906.733,
+      "arrivesAt": 912.95
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Dixie @ Division",
+      "minutes": 4.946544025375688,
+      "miles": 0.24732720126878438
+     }
+    ]
+   },
+   {
+    "direction": "there",
+    "leaveAt": 780,
+    "totalMin": 23.844911164599267,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Dixie @ Division",
+      "minutes": 4.946544025375688,
+      "miles": 0.24732720126878438
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Dixie @ Division",
+      "minutes": 12.653455974624308,
+      "busLeavesAt": 797.6
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Dixie @ Division",
+      "toStop": "Walmart @ York Commons",
+      "minutes": 4.399999999999977,
+      "miles": 1.8667439683804254,
+      "departsAt": 797.6,
+      "arrivesAt": 802
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     }
+    ]
+   },
+   {
+    "direction": "back",
+    "leaveAt": 843.8449111645992,
+    "totalMin": 17.229747573653295,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 6.310177670801409,
+      "busLeavesAt": 852
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Walmart @ York Commons",
+      "toStop": "Dixie @ Palisades",
+      "minutes": 4.5499999999999545,
+      "miles": 2.1261266970688686,
+      "departsAt": 852,
+      "arrivesAt": 856.55
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Dixie @ Palisades",
+      "minutes": 4.524658738252635,
+      "miles": 0.22623293691263174
+     }
+    ]
+   },
+   {
+    "direction": "back",
+    "leaveAt": 853.8449111645992,
+    "totalMin": 64.05163286077644,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 22",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     },
+     {
+      "kind": "wait",
+      "route": "Route 22",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 16.31017767080141,
+      "busLeavesAt": 872
+     },
+     {
+      "kind": "ride",
+      "route": "Route 22",
+      "fromStop": "Walmart @ York Commons",
+      "toStop": "Wagner Ford @ Quick Trip",
+      "minutes": 20.450000000000045,
+      "miles": 6.746109706205362,
+      "departsAt": 872,
+      "arrivesAt": 892.45
+     },
+     {
+      "kind": "transfer",
+      "fromStop": "Wagner Ford @ Quick Trip",
+      "minutes": 14.282999999999902,
+      "busLeavesAt": 906.733
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Dixie @ Wagner-ford",
+      "toStop": "Dixie @ Division",
+      "minutes": 6.217000000000098,
+      "miles": 1.7749870318681717,
+      "departsAt": 906.733,
+      "arrivesAt": 912.95
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Dixie @ Division",
+      "minutes": 4.946544025375688,
+      "miles": 0.24732720126878438
+     }
+    ]
+   },
+   {
+    "direction": "there",
+    "leaveAt": 790,
+    "totalMin": 13.844911164599269,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Dixie @ Division",
+      "minutes": 4.946544025375688,
+      "miles": 0.24732720126878438
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Dixie @ Division",
+      "minutes": 2.6534559746243076,
+      "busLeavesAt": 797.6
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Dixie @ Division",
+      "toStop": "Walmart @ York Commons",
+      "minutes": 4.399999999999977,
+      "miles": 1.8667439683804254,
+      "departsAt": 797.6,
+      "arrivesAt": 802
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     }
+    ]
+   },
+   {
+    "direction": "back",
+    "leaveAt": 843.8449111645992,
+    "totalMin": 17.229747573653295,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 6.310177670801409,
+      "busLeavesAt": 852
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Walmart @ York Commons",
+      "toStop": "Dixie @ Palisades",
+      "minutes": 4.5499999999999545,
+      "miles": 2.1261266970688686,
+      "departsAt": 852,
+      "arrivesAt": 856.55
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Dixie @ Palisades",
+      "minutes": 4.524658738252635,
+      "miles": 0.22623293691263174
+     }
+    ]
+   },
+   {
+    "direction": "back",
+    "leaveAt": 853.8449111645992,
+    "totalMin": 64.05163286077644,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 22",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     },
+     {
+      "kind": "wait",
+      "route": "Route 22",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 16.31017767080141,
+      "busLeavesAt": 872
+     },
+     {
+      "kind": "ride",
+      "route": "Route 22",
+      "fromStop": "Walmart @ York Commons",
+      "toStop": "Wagner Ford @ Quick Trip",
+      "minutes": 20.450000000000045,
+      "miles": 6.746109706205362,
+      "departsAt": 872,
+      "arrivesAt": 892.45
+     },
+     {
+      "kind": "transfer",
+      "fromStop": "Wagner Ford @ Quick Trip",
+      "minutes": 14.282999999999902,
+      "busLeavesAt": 906.733
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Dixie @ Wagner-ford",
+      "toStop": "Dixie @ Division",
+      "minutes": 6.217000000000098,
+      "miles": 1.7749870318681717,
+      "departsAt": 906.733,
+      "arrivesAt": 912.95
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Dixie @ Division",
+      "minutes": 4.946544025375688,
+      "miles": 0.24732720126878438
+     }
+    ]
+   },
+   {
+    "direction": "there",
+    "leaveAt": 800,
+    "totalMin": 60.84491116459927,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Dixie @ Division",
+      "minutes": 4.946544025375688,
+      "miles": 0.24732720126878438
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Dixie @ Division",
+      "minutes": 49.65345597462431,
+      "busLeavesAt": 854.6
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Dixie @ Division",
+      "toStop": "Walmart @ York Commons",
+      "minutes": 4.399999999999977,
+      "miles": 1.8667439683804254,
+      "departsAt": 854.6,
+      "arrivesAt": 859
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     }
+    ]
+   },
+   {
+    "direction": "back",
+    "leaveAt": 900.8449111645992,
+    "totalMin": 20.146747573653325,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 8.310177670801409,
+      "busLeavesAt": 911
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Walmart @ York Commons",
+      "toStop": "Dixie @ Palisades",
+      "minutes": 5.4669999999999845,
+      "miles": 2.1261266970688686,
+      "departsAt": 911,
+      "arrivesAt": 916.467
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Dixie @ Palisades",
+      "minutes": 4.524658738252635,
+      "miles": 0.22623293691263174
+     }
+    ]
+   },
+   {
+    "direction": "back",
+    "leaveAt": 910.8449111645992,
+    "totalMin": 64.14674757365333,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 52.31017767080141,
+      "busLeavesAt": 965
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Walmart @ York Commons",
+      "toStop": "Dixie @ Palisades",
+      "minutes": 5.4669999999999845,
+      "miles": 2.1261266970688686,
+      "departsAt": 965,
+      "arrivesAt": 970.467
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Dixie @ Palisades",
+      "minutes": 4.524658738252635,
+      "miles": 0.22623293691263174
+     }
+    ]
+   },
+   {
+    "direction": "there",
+    "leaveAt": 810,
+    "totalMin": 50.84491116459927,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Dixie @ Division",
+      "minutes": 4.946544025375688,
+      "miles": 0.24732720126878438
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Dixie @ Division",
+      "minutes": 39.65345597462431,
+      "busLeavesAt": 854.6
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Dixie @ Division",
+      "toStop": "Walmart @ York Commons",
+      "minutes": 4.399999999999977,
+      "miles": 1.8667439683804254,
+      "departsAt": 854.6,
+      "arrivesAt": 859
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     }
+    ]
+   },
+   {
+    "direction": "back",
+    "leaveAt": 900.8449111645992,
+    "totalMin": 20.146747573653325,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 8.310177670801409,
+      "busLeavesAt": 911
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Walmart @ York Commons",
+      "toStop": "Dixie @ Palisades",
+      "minutes": 5.4669999999999845,
+      "miles": 2.1261266970688686,
+      "departsAt": 911,
+      "arrivesAt": 916.467
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Dixie @ Palisades",
+      "minutes": 4.524658738252635,
+      "miles": 0.22623293691263174
+     }
+    ]
+   },
+   {
+    "direction": "back",
+    "leaveAt": 910.8449111645992,
+    "totalMin": 64.14674757365333,
+    "components": [
+     {
+      "kind": "walk-to-stop",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 1.844911164599297,
+      "miles": 0.09224555822996486
+     },
+     {
+      "kind": "wait",
+      "route": "Route 17",
+      "stopName": "Walmart @ York Commons",
+      "minutes": 52.31017767080141,
+      "busLeavesAt": 965
+     },
+     {
+      "kind": "ride",
+      "route": "Route 17",
+      "fromStop": "Walmart @ York Commons",
+      "toStop": "Dixie @ Palisades",
+      "minutes": 5.4669999999999845,
+      "miles": 2.1261266970688686,
+      "departsAt": 965,
+      "arrivesAt": 970.467
+     },
+     {
+      "kind": "walk-to-destination",
+      "stopName": "Dixie @ Palisades",
+      "minutes": 4.524658738252635,
+      "miles": 0.22623293691263174
+     }
+    ]
+   }
+  ],
+  "driveOneWayMin": 9.694313620156585,
+  "walkOneWayMin": 38.191914618216394
+ },
+ "straightLine": {
+  "from": {
+   "lat": 39.63464062202511,
+   "lon": -84.2762338995298
+  },
+  "store": {
+   "id": "retailer-236",
+   "name": "Kroger #770",
+   "lat": 39.6432798870001,
+   "lon": -84.266549109
+  },
+  "walkMiles": 1.7063214467086858,
+  "driveMiles": 1.7754140586270393
+ },
+ "calibration": {
+  "departureMin": 480,
+  "trips": [
+   {
+    "id": "food-zone-391130004003",
+    "stratum": "food-zone",
+    "arrivalMin": 42.74127590937727,
+    "driveMin": 6.800175044603911
+   },
+   {
+    "id": "food-zone-391130011003",
+    "stratum": "food-zone",
+    "arrivalMin": 17.134015367929646,
+    "driveMin": 5.326987986546174
+   },
+   {
+    "id": "food-zone-391130017001",
+    "stratum": "food-zone",
+    "arrivalMin": 48.94656856949983,
+    "driveMin": 7.476514389155074
+   },
+   {
+    "id": "food-zone-391130018022",
+    "stratum": "food-zone",
+    "arrivalMin": 67.10042294693818,
+    "driveMin": 12.19762355416005
+   },
+   {
+    "id": "food-zone-391130019005",
+    "stratum": "food-zone",
+    "arrivalMin": 15.319764238686407,
+    "driveMin": 7.768254794633529
+   },
+   {
+    "id": "food-zone-391130024002",
+    "stratum": "food-zone",
+    "arrivalMin": 15.319764238686409,
+    "driveMin": 5.140838667081643
+   },
+   {
+    "id": "food-zone-391130035001",
+    "stratum": "food-zone",
+    "arrivalMin": 27.705184000405353,
+    "driveMin": 7.219787070268312
+   },
+   {
+    "id": "food-zone-391130038002",
+    "stratum": "food-zone",
+    "arrivalMin": 26.52961710940565,
+    "driveMin": 6.313469916338114
+   },
+   {
+    "id": "food-zone-391130042003",
+    "stratum": "food-zone",
+    "arrivalMin": 27.70518400040538,
+    "driveMin": 4.595200366258129
+   },
+   {
+    "id": "food-zone-391130208002",
+    "stratum": "food-zone",
+    "arrivalMin": 17.447028097578354,
+    "driveMin": 2.897200423663853
+   },
+   {
+    "id": "food-zone-391130505031",
+    "stratum": "food-zone",
+    "arrivalMin": null,
+    "driveMin": 4.85944098178757
+   },
+   {
+    "id": "food-zone-391130702011",
+    "stratum": "food-zone",
+    "arrivalMin": 32.257441137050805,
+    "driveMin": 8.192321455418476
+   },
+   {
+    "id": "food-zone-391130805005",
+    "stratum": "food-zone",
+    "arrivalMin": 36.84491116459927,
+    "driveMin": 7.694313620156585
+   },
+   {
+    "id": "food-zone-391130903023",
+    "stratum": "food-zone",
+    "arrivalMin": 67.10042294693814,
+    "driveMin": 7.408340378042318
+   },
+   {
+    "id": "food-zone-391131251021",
+    "stratum": "food-zone",
+    "arrivalMin": 18.137847909835905,
+    "driveMin": 6.258801415154464
+   },
+   {
+    "id": "high-need-391130002002",
+    "stratum": "high-need",
+    "arrivalMin": 4.735400935630841,
+    "driveMin": 0.9421981311121153
+   },
+   {
+    "id": "high-need-391130003002",
+    "stratum": "high-need",
+    "arrivalMin": 13.73663132047202,
+    "driveMin": 2.718255735154143
+   },
+   {
+    "id": "high-need-391130005003",
+    "stratum": "high-need",
+    "arrivalMin": 19.670709174756755,
+    "driveMin": 4.971601570109501
+   },
+   {
+    "id": "high-need-391130008011",
+    "stratum": "high-need",
+    "arrivalMin": 17.13401536792965,
+    "driveMin": 4.2744255269537605
+   },
+   {
+    "id": "high-need-391130008023",
+    "stratum": "high-need",
+    "arrivalMin": 18.970817923040226,
+    "driveMin": 4.036917376265541
+   },
+   {
+    "id": "high-need-391130011001",
+    "stratum": "high-need",
+    "arrivalMin": 14.940718300000082,
+    "driveMin": 3.275608051361262
+   },
+   {
+    "id": "high-need-391130015011",
+    "stratum": "high-need",
+    "arrivalMin": 18.982231573702368,
+    "driveMin": 4.167684766165415
+   },
+   {
+    "id": "high-need-391130022002",
+    "stratum": "high-need",
+    "arrivalMin": 7.693975904304032,
+    "driveMin": 2.273405639084432
+   },
+   {
+    "id": "high-need-391130025005",
+    "stratum": "high-need",
+    "arrivalMin": 18.489496633278737,
+    "driveMin": 3.272730636338979
+   },
+   {
+    "id": "high-need-391130033004",
+    "stratum": "high-need",
+    "arrivalMin": 14.242013805991448,
+    "driveMin": 3.4656506322927747
+   },
+   {
+    "id": "high-need-391130042002",
+    "stratum": "high-need",
+    "arrivalMin": 7.617957211026259,
+    "driveMin": 2.1742577044337246
+   },
+   {
+    "id": "high-need-391130203001",
+    "stratum": "high-need",
+    "arrivalMin": 6.6549353626603835,
+    "driveMin": 1.845701029361921
+   },
+   {
+    "id": "high-need-391130801002",
+    "stratum": "high-need",
+    "arrivalMin": 19.902000449390723,
+    "driveMin": 3.6900283430717886
+   },
+   {
+    "id": "high-need-391130803002",
+    "stratum": "high-need",
+    "arrivalMin": 11.317771337527116,
+    "driveMin": 2.4936227820851204
+   },
+   {
+    "id": "high-need-391130804002",
+    "stratum": "high-need",
+    "arrivalMin": 29.204595821043284,
+    "driveMin": 19.232364572425254
+   },
+   {
+    "id": "urban-391130001001",
+    "stratum": "urban",
+    "arrivalMin": 11.004109997709238,
+    "driveMin": 4.934388196138252
+   },
+   {
+    "id": "urban-391130022003",
+    "stratum": "urban",
+    "arrivalMin": 11.533122280696858,
+    "driveMin": 2.438292873541024
+   },
+   {
+    "id": "urban-391130029003",
+    "stratum": "urban",
+    "arrivalMin": 9.835551980955167,
+    "driveMin": 3.366852880296519
+   },
+   {
+    "id": "urban-391130039002",
+    "stratum": "urban",
+    "arrivalMin": 26.52961710940566,
+    "driveMin": 7.70599217982231
+   },
+   {
+    "id": "urban-391130209002",
+    "stratum": "urban",
+    "arrivalMin": 17.450004919210567,
+    "driveMin": 3.488672791928545
+   },
+   {
+    "id": "urban-391130301001",
+    "stratum": "urban",
+    "arrivalMin": 12.573258478219014,
+    "driveMin": 3.0910431474704456
+   },
+   {
+    "id": "urban-391130906001",
+    "stratum": "urban",
+    "arrivalMin": 97.44991462126062,
+    "driveMin": 7.052456826942677
+   },
+   {
+    "id": "suburban-391130003001",
+    "stratum": "suburban",
+    "arrivalMin": 10.108233793711868,
+    "driveMin": 2.3962847089155304
+   },
+   {
+    "id": "suburban-391130201001",
+    "stratum": "suburban",
+    "arrivalMin": 49.67577282009163,
+    "driveMin": 4.817231556065971
+   },
+   {
+    "id": "suburban-391130219002",
+    "stratum": "suburban",
+    "arrivalMin": 24.469306432084004,
+    "driveMin": 5.730156487611043
+   },
+   {
+    "id": "suburban-391130404032",
+    "stratum": "suburban",
+    "arrivalMin": 13.463395930743324,
+    "driveMin": 9.790952542121532
+   },
+   {
+    "id": "suburban-391130505044",
+    "stratum": "suburban",
+    "arrivalMin": 43.47686838700219,
+    "driveMin": 5.199629600671337
+   },
+   {
+    "id": "suburban-391130903031",
+    "stratum": "suburban",
+    "arrivalMin": null,
+    "driveMin": 5.833859788210361
+   },
+   {
+    "id": "suburban-391131003012",
+    "stratum": "suburban",
+    "arrivalMin": 70.5235641876713,
+    "driveMin": 8.400216683464663
+   },
+   {
+    "id": "rural-391130001003",
+    "stratum": "rural",
+    "arrivalMin": 30.22078556125465,
+    "driveMin": 5.048443349125203
+   },
+   {
+    "id": "rural-391130204002",
+    "stratum": "rural",
+    "arrivalMin": 11.065104783873924,
+    "driveMin": 1.9181067218483494
+   },
+   {
+    "id": "rural-391130404013",
+    "stratum": "rural",
+    "arrivalMin": 44.42960109186409,
+    "driveMin": 6.342840119304045
+   },
+   {
+    "id": "rural-391130701011",
+    "stratum": "rural",
+    "arrivalMin": 18.655475625674654,
+    "driveMin": 6.55077843385061
+   },
+   {
+    "id": "rural-391131001022",
+    "stratum": "rural",
+    "arrivalMin": 30.66980831659837,
+    "driveMin": 6.912417840001222
+   },
+   {
+    "id": "rural-391131301011",
+    "stratum": "rural",
+    "arrivalMin": null,
+    "driveMin": 14.108355061235798
+   },
+   {
+    "id": "diagnostic-interior-point-391130602001",
+    "stratum": "diagnostic",
+    "arrivalMin": null,
+    "driveMin": 31.79422359785879
+   },
+   {
+    "id": "diagnostic-lived-in-391130602001",
+    "stratum": "diagnostic",
+    "arrivalMin": 9.609008982187142,
+    "driveMin": 2.019629138820811
+   }
+  ],
+  "walks": [
+   {
+    "id": "391130001002-retailer-238",
+    "miles": 0.9269177584573997
+   },
+   {
+    "id": "391130002001-retailer-325",
+    "miles": 0.9763122476200398
+   },
+   {
+    "id": "391130003001-retailer-238",
+    "miles": 0.87996580641459
+   },
+   {
+    "id": "391130004002-retailer-290",
+    "miles": 1.2318492653179642
+   },
+   {
+    "id": "391130004004-retailer-290",
+    "miles": 0.8559827183185056
+   },
+   {
+    "id": "391130006002-retailer-188",
+    "miles": 0.9240987987809449
+   },
+   {
+    "id": "391130008011-retailer-331",
+    "miles": 0.9677082532770696
+   },
+   {
+    "id": "391130009003-retailer-188",
+    "miles": 0.5941217616399824
+   },
+   {
+    "id": "391130012002-retailer-188",
+    "miles": 1.0172182670418597
+   },
+   {
+    "id": "391130019004-retailer-227",
+    "miles": 1.1015137152641026
+   },
+   {
+    "id": "391130025001-retailer-234",
+    "miles": 0.939331046870549
+   },
+   {
+    "id": "391130025004-retailer-234",
+    "miles": 1.1404670336566363
+   },
+   {
+    "id": "391130029002-retailer-145",
+    "miles": 0.6896136844339043
+   },
+   {
+    "id": "391130030001-retailer-330",
+    "miles": 0.933669224846768
+   },
+   {
+    "id": "391130031002-retailer-330",
+    "miles": 0.4920094208562688
+   },
+   {
+    "id": "391130032013-retailer-330",
+    "miles": 0.434775233593035
+   },
+   {
+    "id": "391130033005-retailer-227",
+    "miles": 0.42499715285914175
+   },
+   {
+    "id": "391130034042-retailer-227",
+    "miles": 0.6618528557039915
+   },
+   {
+    "id": "391130046001-retailer-189",
+    "miles": 1.1187233828531142
+   },
+   {
+    "id": "391130102005-retailer-330",
+    "miles": 1.1306542616681583
+   },
+   {
+    "id": "391130201003-retailer-463",
+    "miles": 0.9285834194511258
+   },
+   {
+    "id": "391130203001-retailer-144",
+    "miles": 0.6409097944859641
+   },
+   {
+    "id": "391130204001-retailer-239",
+    "miles": 1.067896517966052
+   },
+   {
+    "id": "391130206011-retailer-239",
+    "miles": 0.7606129490849902
+   },
+   {
+    "id": "391130207001-retailer-412",
+    "miles": 0.47481713578922913
+   },
+   {
+    "id": "391130208001-retailer-239",
+    "miles": 1.1797201560109343
+   },
+   {
+    "id": "391130208002-retailer-412",
+    "miles": 1.092096292974118
+   },
+   {
+    "id": "391130209003-retailer-144",
+    "miles": 0.7908185121731643
+   },
+   {
+    "id": "391130211001-retailer-145",
+    "miles": 0.828335110277652
+   },
+   {
+    "id": "391130212001-retailer-10",
+    "miles": 1.0008159158843126
+   },
+   {
+    "id": "391130213012-retailer-10",
+    "miles": 1.2367797474598325
+   },
+   {
+    "id": "391130213021-retailer-10",
+    "miles": 0.7036930089748208
+   },
+   {
+    "id": "391130214003-retailer-10",
+    "miles": 1.0843945443660237
+   },
+   {
+    "id": "391130215011-retailer-237",
+    "miles": 0.8435294223242593
+   },
+   {
+    "id": "391130215013-retailer-10",
+    "miles": 1.492948194776578
+   },
+   {
+    "id": "391130215021-retailer-273",
+    "miles": 0.9832928497608759
+   },
+   {
+    "id": "391130301001-retailer-281",
+    "miles": 0.6157381150994687
+   },
+   {
+    "id": "391130402012-retailer-143",
+    "miles": 1.6982373166859217
+   },
+   {
+    "id": "391130402042-retailer-147",
+    "miles": 2.179533928908713
+   },
+   {
+    "id": "391130404051-retailer-462",
+    "miles": 1.7301367348827628
+   },
+   {
+    "id": "391130404062-retailer-243",
+    "miles": 1.017375347891684
+   },
+   {
+    "id": "391130501041-retailer-15",
+    "miles": 1.3031994327517507
+   },
+   {
+    "id": "391130501052-retailer-281",
+    "miles": 1.576907921859814
+   },
+   {
+    "id": "391130501071-retailer-15",
+    "miles": 1.6712397432131474
+   },
+   {
+    "id": "391130504021-retailer-236",
+    "miles": 1.2431747167975682
+   },
+   {
+    "id": "391130602001-retailer-148",
+    "miles": 1.2268982781155944
+   },
+   {
+    "id": "391130801002-retailer-238",
+    "miles": 0.5613162894041892
+   },
+   {
+    "id": "391130803001-retailer-331",
+    "miles": 0.5438258845887027
+   },
+   {
+    "id": "391130805001-retailer-9",
+    "miles": 0.7280389826062
+   },
+   {
+    "id": "391130903031-retailer-7",
+    "miles": 2.099841467922791
+   },
+   {
+    "id": "391130909002-retailer-234",
+    "miles": 0.5864733843931715
+   },
+   {
+    "id": "391131001012-retailer-235",
+    "miles": 2.227781636202795
+   },
+   {
+    "id": "391131002012-retailer-274",
+    "miles": 1.0741830260028915
+   },
+   {
+    "id": "391131002033-retailer-7",
+    "miles": 0.8877764316732903
+   },
+   {
+    "id": "391131004001-retailer-7",
+    "miles": 1.0474173609544264
+   },
+   {
+    "id": "391131102021-retailer-460",
+    "miles": 1.7267594920794531
+   },
+   {
+    "id": "391131150113-retailer-232",
+    "miles": 1.1940914512356051
+   },
+   {
+    "id": "391131251023-retailer-231",
+    "miles": 1.0081150368376826
+   },
+   {
+    "id": "391131251042-retailer-231",
+    "miles": 0.92910740272908
+   },
+   {
+    "id": "391131501002-retailer-202",
+    "miles": 1.3914221738519745
+   }
+  ]
+ }
+}

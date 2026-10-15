@@ -1,0 +1,300 @@
+{
+ "description": "Census 2020 ZCTA internal points for every ZCTA with any area in Montgomery County, Ohio (county 39113)",
+ "snapshotId": "ZCTA_centroids@2026-10-03#6d1a8807",
+ "sources": [
+  {
+   "bytes": 998037,
+   "fetched_at": "2026-10-03T18:08:10+00:00",
+   "sha256": "335402fb16b41303a3760f8956d2af005bbd6919b8dc6f4a96048af0005957a6",
+   "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_zcta_national.zip"
+  },
+  {
+   "bytes": 6821287,
+   "fetched_at": "2026-10-03T18:08:10+00:00",
+   "sha256": "3ed41278d637dc249e0323306f68be8a6c234e3090f4de88ef328dee71aeaaaf",
+   "url": "https://www2.census.gov/geo/docs/maps-data/data/rel2020/zcta520/tab20_zcta520_county20_natl.txt"
+  }
+ ],
+ "zips": [
+  {
+   "landShareInCounty": 0.006107819194362787,
+   "landSqMiInCounty": 0.2237736141286039,
+   "lat": 39.538522,
+   "lon": -84.296051,
+   "zip": "45005"
+  },
+  {
+   "landShareInCounty": 0.008556930255864395,
+   "landSqMiInCounty": 0.42089614066165687,
+   "lat": 39.556885,
+   "lon": -84.420158,
+   "zip": "45042"
+  },
+  {
+   "landShareInCounty": 0.010061014566193854,
+   "landSqMiInCounty": 0.20529939804666492,
+   "lat": 39.551157,
+   "lon": -84.224414,
+   "zip": "45066"
+  },
+  {
+   "landShareInCounty": 0.9465089188266269,
+   "landSqMiInCounty": 62.421003538516835,
+   "lat": 39.842677,
+   "lon": -84.414725,
+   "zip": "45309"
+  },
+  {
+   "landShareInCounty": 1.0,
+   "landSqMiInCounty": 10.879414807948487,
+   "lat": 39.856992,
+   "lon": -84.339102,
+   "zip": "45315"
+  },
+  {
+   "landShareInCounty": 0.7745457286689105,
+   "landSqMiInCounty": 16.387986427664966,
+   "lat": 39.899766,
+   "lon": -84.327928,
+   "zip": "45322"
+  },
+  {
+   "landShareInCounty": 1.0,
+   "landSqMiInCounty": 25.73825792248596,
+   "lat": 39.692609,
+   "lon": -84.430204,
+   "zip": "45325"
+  },
+  {
+   "landShareInCounty": 0.9418694817546575,
+   "landSqMiInCounty": 45.3362988545793,
+   "lat": 39.62876,
+   "lon": -84.403005,
+   "zip": "45327"
+  },
+  {
+   "landShareInCounty": 0.9843179987265926,
+   "landSqMiInCounty": 33.770115642983875,
+   "lat": 39.629338,
+   "lon": -84.275969,
+   "zip": "45342"
+  },
+  {
+   "landShareInCounty": 0.0023190154098170017,
+   "landSqMiInCounty": 0.16224630465407242,
+   "lat": 39.953828,
+   "lon": -84.009674,
+   "zip": "45344"
+  },
+  {
+   "landShareInCounty": 1.0,
+   "landSqMiInCounty": 22.358816540083435,
+   "lat": 39.737877,
+   "lon": -84.407449,
+   "zip": "45345"
+  },
+  {
+   "landShareInCounty": 1.0,
+   "landSqMiInCounty": 0.8990469843114145,
+   "lat": 39.910552,
+   "lon": -84.399687,
+   "zip": "45354"
+  },
+  {
+   "landShareInCounty": 0.04273118953071335,
+   "landSqMiInCounty": 2.1887988509972596,
+   "lat": 39.939544,
+   "lon": -84.160639,
+   "zip": "45371"
+  },
+  {
+   "landShareInCounty": 1.0,
+   "landSqMiInCounty": 21.2417060064661,
+   "lat": 39.897633,
+   "lon": -84.223196,
+   "zip": "45377"
+  },
+  {
+   "landShareInCounty": 0.19832256536375914,
+   "landSqMiInCounty": 0.060776726878324944,
+   "lat": 39.902924,
+   "lon": -84.488721,
+   "zip": "45378"
+  },
+  {
+   "landShareInCounty": 0.09309815672535353,
+   "landSqMiInCounty": 5.022261279150243,
+   "lat": 39.730685,
+   "lon": -84.524354,
+   "zip": "45381"
+  },
+  {
+   "landShareInCounty": 1.0,
+   "landSqMiInCounty": 4.3660042124799645,
+   "lat": 39.75936,
+   "lon": -84.209094,
+   "zip": "45402"
+  },
+  {
+   "landShareInCounty": 1.0,
+   "landSqMiInCounty": 3.1468611641397284,
+   "lat": 39.769039,
+   "lon": -84.147474,
+   "zip": "45403"
+  },
+  {
+   "landShareInCounty": 1.0,
+   "landSqMiInCounty": 7.5577157755603,
+   "lat": 39.789502,
+   "lon": -84.161815,
+   "zip": "45404"
+  },
+  {
+   "landShareInCounty": 1.0,
+   "landSqMiInCounty": 3.968039837320619,
+   "lat": 39.79216,
+   "lon": -84.216028,
+   "zip": "45405"
+  },
+  {
+   "landShareInCounty": 1.0,
+   "landSqMiInCounty": 4.981742946428481,
+   "lat": 39.785386,
+   "lon": -84.242215,
+   "zip": "45406"
+  },
+  {
+   "landShareInCounty": 1.0,
+   "landSqMiInCounty": 3.6772906261582916,
+   "lat": 39.721305,
+   "lon": -84.18797,
+   "zip": "45409"
+  },
+  {
+   "landShareInCounty": 1.0,
+   "landSqMiInCounty": 2.406880933206789,
+   "lat": 39.748047,
+   "lon": -84.158125,
+   "zip": "45410"
+  },
+  {
+   "landShareInCounty": 1.0,
+   "landSqMiInCounty": 21.762302990915224,
+   "lat": 39.841765,
+   "lon": -84.213015,
+   "zip": "45414"
+  },
+  {
+   "landShareInCounty": 1.0,
+   "landSqMiInCounty": 6.007831826680227,
+   "lat": 39.835581,
+   "lon": -84.257387,
+   "zip": "45415"
+  },
+  {
+   "landShareInCounty": 1.0,
+   "landSqMiInCounty": 1.9369185441353995,
+   "lat": 39.807155,
+   "lon": -84.258107,
+   "zip": "45416"
+  },
+  {
+   "landShareInCounty": 1.0,
+   "landSqMiInCounty": 32.20206520144222,
+   "lat": 39.734933,
+   "lon": -84.289351,
+   "zip": "45417"
+  },
+  {
+   "landShareInCounty": 1.0,
+   "landSqMiInCounty": 3.7264808133609164,
+   "lat": 39.713376,
+   "lon": -84.167179,
+   "zip": "45419"
+  },
+  {
+   "landShareInCounty": 1.0,
+   "landSqMiInCounty": 6.443569734316255,
+   "lat": 39.718818,
+   "lon": -84.129169,
+   "zip": "45420"
+  },
+  {
+   "landShareInCounty": 0.846834403571243,
+   "landSqMiInCounty": 26.691386236144417,
+   "lat": 39.843178,
+   "lon": -84.110031,
+   "zip": "45424"
+  },
+  {
+   "landShareInCounty": 1.0,
+   "landSqMiInCounty": 19.9019875011368,
+   "lat": 39.804535,
+   "lon": -84.319787,
+   "zip": "45426"
+  },
+  {
+   "landShareInCounty": 1.0,
+   "landSqMiInCounty": 0.455204020163263,
+   "lat": 39.742877,
+   "lon": -84.260635,
+   "zip": "45428"
+  },
+  {
+   "landShareInCounty": 1.0,
+   "landSqMiInCounty": 9.89930992257483,
+   "lat": 39.682913,
+   "lon": -84.158883,
+   "zip": "45429"
+  },
+  {
+   "landShareInCounty": 0.38302794000624835,
+   "landSqMiInCounty": 4.494150746695885,
+   "lat": 39.763835,
+   "lon": -84.084204,
+   "zip": "45431"
+  },
+  {
+   "landShareInCounty": 0.33556557007319593,
+   "landSqMiInCounty": 2.3935194819082692,
+   "lat": 39.739492,
+   "lon": -84.085195,
+   "zip": "45432"
+  },
+  {
+   "landShareInCounty": 1.0,
+   "landSqMiInCounty": 7.779020266385025,
+   "lat": 39.701313,
+   "lon": -84.218908,
+   "zip": "45439"
+  },
+  {
+   "landShareInCounty": 0.36163873273643315,
+   "landSqMiInCounty": 3.326201755761109,
+   "lat": 39.674725,
+   "lon": -84.097808,
+   "zip": "45440"
+  },
+  {
+   "landShareInCounty": 1.0,
+   "landSqMiInCounty": 6.797978697174744,
+   "lat": 39.664147,
+   "lon": -84.237985,
+   "zip": "45449"
+  },
+  {
+   "landShareInCounty": 0.8234768372692244,
+   "landSqMiInCounty": 16.363211024355614,
+   "lat": 39.602396,
+   "lon": -84.156357,
+   "zip": "45458"
+  },
+  {
+   "landShareInCounty": 0.9665779410728347,
+   "landSqMiInCounty": 13.721053721512924,
+   "lat": 39.647433,
+   "lon": -84.170598,
+   "zip": "45459"
+  }
+ ]
+}

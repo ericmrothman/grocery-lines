@@ -1,0 +1,421 @@
+{
+ "copyrightText": "",
+ "description": "",
+ "editingInfo": {
+  "dataLastEditDate": 1780942745690,
+  "lastEditDate": 1780942745690,
+  "schemaLastEditDate": 1780942745690
+ },
+ "fields": [
+  {
+   "alias": "OBJECTID",
+   "defaultValue": null,
+   "domain": null,
+   "editable": false,
+   "name": "OBJECTID",
+   "nullable": false,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeOID"
+  },
+  {
+   "alias": "STATEFP",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "length": 2,
+   "name": "STATEFP",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "alias": "COUNTYFP",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "length": 3,
+   "name": "COUNTYFP",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "alias": "TRACTCE",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "length": 6,
+   "name": "TRACTCE",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "alias": "BLKGRPCE",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "length": 1,
+   "name": "BLKGRPCE",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "alias": "GEOID",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "length": 12,
+   "name": "GEOID",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "alias": "NAMELSAD",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "length": 13,
+   "name": "NAMELSAD",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "alias": "MTFCC",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "length": 5,
+   "name": "MTFCC",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "alias": "FUNCSTAT",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "length": 1,
+   "name": "FUNCSTAT",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "alias": "ALAND",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "name": "ALAND",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeDouble"
+  },
+  {
+   "alias": "AWATER",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "name": "AWATER",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeDouble"
+  },
+  {
+   "alias": "INTPTLAT",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "length": 11,
+   "name": "INTPTLAT",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "alias": "INTPTLON",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "length": 12,
+   "name": "INTPTLON",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "alias": "Total Population, 2020",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "name": "POP",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeInteger"
+  },
+  {
+   "alias": "Total Housing Units, 2020",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "name": "TOT_HU",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeInteger"
+  },
+  {
+   "alias": "Occupied Housing Units, 2020",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "name": "OCC_HU",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeInteger"
+  },
+  {
+   "alias": "Vacant Housing Units, 2020",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "name": "VAC_HU",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeInteger"
+  },
+  {
+   "alias": "County",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "length": 3,
+   "name": "County",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "alias": "MPO",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "length": 1,
+   "name": "MPO",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "alias": "GEO_ID",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "length": 255,
+   "name": "GEO_ID",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "alias": "NAME",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "length": 255,
+   "name": "NAME",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "alias": "Total:",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "name": "Total_",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeDouble"
+  },
+  {
+   "alias": "With cash public assistance or Food Stamps/SNAP",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "name": "With_cash_public_assistance_or_",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeDouble"
+  },
+  {
+   "alias": "No cash public assistance or Food Stamps/SNAP",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "name": "No_cash_public_assistance_or_Fo",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeDouble"
+  },
+  {
+   "alias": "Percent With",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "name": "Percent_With",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeDouble"
+  },
+  {
+   "alias": "Percent No",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "name": "Percent_No",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeDouble"
+  },
+  {
+   "alias": "GEO_ID",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "length": 255,
+   "name": "GEO_ID_1",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "alias": "NAME",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "length": 255,
+   "name": "NAME_1",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "alias": "Total Occupied Housing Units",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "name": "Total_Occupied_Housing_Units",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeDouble"
+  },
+  {
+   "alias": "No Vehicle",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "name": "No_Vehicle",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeDouble"
+  },
+  {
+   "alias": "Vehicle Total",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "name": "Vehicle_Total",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeDouble"
+  },
+  {
+   "alias": "Percent of Occcupied Houses With NO Vehicle",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "name": "Percent_of_Occcupied_Houses_Wit",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeDouble"
+  },
+  {
+   "alias": "Percent of Occcupied Houses WITH a Vehicle",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "name": "Percent_of_Occcupied_Houses_W_1",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeDouble"
+  },
+  {
+   "alias": "PercentNoVehicle",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "name": "PercentNoVehicle",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeDouble"
+  },
+  {
+   "alias": "PercentWithSNAP",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "name": "PercentWithSNAP",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeDouble"
+  },
+  {
+   "alias": "PercentNoSNAP",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "name": "PercentNoSNAP",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeDouble"
+  },
+  {
+   "alias": "PercentWithVehicle",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "name": "PercentWithVehicle",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeDouble"
+  },
+  {
+   "alias": "Shape__Area",
+   "defaultValue": null,
+   "domain": null,
+   "editable": false,
+   "name": "Shape__Area",
+   "nullable": true,
+   "sqlType": "sqlTypeDouble",
+   "type": "esriFieldTypeDouble"
+  },
+  {
+   "alias": "Shape__Length",
+   "defaultValue": null,
+   "domain": null,
+   "editable": false,
+   "name": "Shape__Length",
+   "nullable": true,
+   "sqlType": "sqlTypeDouble",
+   "type": "esriFieldTypeDouble"
+  }
+ ],
+ "geometryType": "esriGeometryPolygon",
+ "maxRecordCount": 2000,
+ "name": "Quantile Vehicle",
+ "objectIdField": "OBJECTID"
+}

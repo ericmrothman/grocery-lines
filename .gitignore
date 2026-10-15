@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.DS_Store
+snapshots/.google-maps-key
+.ipynb_checkpoints/
+
+Claude outputs/
+.agents/
+.claude/
+food-mobility-engine.zip
+img/
+assets/

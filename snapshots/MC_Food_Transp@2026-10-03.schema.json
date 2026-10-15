@@ -1,0 +1,108 @@
+{
+ "copyrightText": "",
+ "description": "",
+ "editingInfo": {
+  "dataLastEditDate": 1779811285350,
+  "lastEditDate": 1779811285350,
+  "schemaLastEditDate": 1779811285350
+ },
+ "fields": [
+  {
+   "alias": "OBJECTID",
+   "defaultValue": null,
+   "domain": null,
+   "editable": false,
+   "name": "OBJECTID",
+   "nullable": false,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeOID"
+  },
+  {
+   "alias": "Id",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "name": "Id",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeInteger"
+  },
+  {
+   "alias": "Route_Name",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "length": 5,
+   "name": "Route_Name",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "alias": "PeakHDWay",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "name": "PeakHDWay",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeSmallInteger"
+  },
+  {
+   "alias": "OffPeakHDW",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "name": "OffPeakHDW",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeSmallInteger"
+  },
+  {
+   "alias": "Length",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "name": "Length",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeDouble"
+  },
+  {
+   "alias": "Type",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "length": 16,
+   "name": "Type",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "alias": "System",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "length": 16,
+   "name": "System",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "alias": "Shape__Length",
+   "defaultValue": null,
+   "domain": null,
+   "editable": false,
+   "name": "Shape__Length",
+   "nullable": true,
+   "sqlType": "sqlTypeDouble",
+   "type": "esriFieldTypeDouble"
+  }
+ ],
+ "geometryType": "esriGeometryPolyline",
+ "maxRecordCount": 2000,
+ "name": "MC_TranspRoutes",
+ "objectIdField": "OBJECTID"
+}

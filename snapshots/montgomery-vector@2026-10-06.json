@@ -1,0 +1,41 @@
+{
+  "snapshotId": "Protomaps_basemap@2026-10-06#f3556fe5",
+  "description": "Protomaps vector basemap (OpenStreetMap and Natural Earth) for the app map: the county and its neighbourhood up to zoom 10, the county alone at zooms 11 to 14",
+  "source": {
+    "url": "https://build.protomaps.com/20261006.pmtiles",
+    "osmReplicationTime": "2026-10-06T04:00:00Z",
+    "basemapVersion": "4.15.2"
+  },
+  "attribution": "© OpenStreetMap contributors, Protomaps",
+  "pieces": [
+    {
+      "bbox": [
+        -84.703,
+        39.4058,
+        -83.8337,
+        40.0954
+      ],
+      "zooms": [
+        0,
+        10
+      ]
+    },
+    {
+      "bbox": [
+        -84.4957,
+        39.5682,
+        -84.041,
+        39.933
+      ],
+      "zooms": [
+        11,
+        14
+      ]
+    }
+  ],
+  "tiles": 719,
+  "tool": "pmtiles 1.31.2, commit a3e4951ea6a0477b784c27c1dcbfd9c130878c5a, built at 2026-07-22T18:59:03Z",
+  "file": "montgomery-vector@2026-10-06.pmtiles",
+  "bytes": 7932294,
+  "sha256": "f3556fe539b1b259baa6e3a59c9b774222d9ad4a3f9917e4202adc8abaad8758"
+}
