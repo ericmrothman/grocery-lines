@@ -1,0 +1,10 @@
+{
+  "name": "dayton-food-mobility",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Drive vs. bus travel estimates to food in Montgomery County, Ohio, with a traceable method.",
+  "scripts": {
+    "serve": "python3 -m http.server 8080 --bind 127.0.0.1"
+  }
+}

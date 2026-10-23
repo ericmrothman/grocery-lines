@@ -1,0 +1,1573 @@
+{
+ "source": {
+  "service": "Google Maps Platform Routes API (computeRoutes)",
+  "fetchedAt": "2026-10-06T15:03:31+00:00",
+  "departure": {
+   "date": "2026-10-13",
+   "localTime": "08:00",
+   "utc": "2026-10-13T12:00:00Z",
+   "minutesAfterMidnight": 480
+  },
+  "raw": "calibration_raw@2026-10-06.json"
+ },
+ "trips": [
+  {
+   "id": "food-zone-391130004003",
+   "google": {
+    "transit": {
+     "arrivalMin": 44.25,
+     "durationMin": 23.75,
+     "walkStretchesMi": [
+      0.3672303746122644,
+      0.40016304780084305
+     ],
+     "firstBoardAt": "2026-10-13T12:29:13Z",
+     "lastAlightAt": "2026-10-13T12:35:22Z",
+     "lines": [
+      "02"
+     ],
+     "walkOnly": false,
+     "walkMi": 0.7673934224131074
+    },
+    "driveNoTraffic": {
+     "durationMin": 5.266666666666667,
+     "staticDurationMin": 5.266666666666667,
+     "miles": 2.0884285771096796
+    },
+    "driveTypicalTraffic": {
+     "durationMin": 5.316666666666666,
+     "staticDurationMin": 5.266666666666667,
+     "miles": 2.0884285771096796
+    }
+   },
+   "errors": []
+  },
+  {
+   "id": "food-zone-391130011003",
+   "google": {
+    "transit": {
+     "arrivalMin": 17.85,
+     "durationMin": 10.933333333333334,
+     "walkStretchesMi": [
+      0.22058677324425355,
+      0.07270042949176807
+     ],
+     "firstBoardAt": "2026-10-13T12:12:00Z",
+     "lastAlightAt": "2026-10-13T12:15:54Z",
+     "lines": [
+      "07"
+     ],
+     "walkOnly": false,
+     "walkMi": 0.2932872027360216
+    },
+    "driveNoTraffic": {
+     "durationMin": 4.5,
+     "staticDurationMin": 4.5,
+     "miles": 1.2893452238924679
+    },
+    "driveTypicalTraffic": {
+     "durationMin": 4.35,
+     "staticDurationMin": 4.5,
+     "miles": 1.2893452238924679
+    }
+   },
+   "errors": []
+  },
+  {
+   "id": "food-zone-391130017001",
+   "google": {
+    "transit": {
+     "arrivalMin": 50.233333333333334,
+     "durationMin": 38.7,
+     "walkStretchesMi": [
+      0.5834675495108566,
+      0.0,
+      0.17336256263421618
+     ],
+     "firstBoardAt": "2026-10-13T12:24:17Z",
+     "lastAlightAt": "2026-10-13T12:46:00Z",
+     "lines": [
+      "19",
+      "07"
+     ],
+     "walkOnly": false,
+     "walkMi": 0.7568301121450728
+    },
+    "driveNoTraffic": {
+     "durationMin": 8.316666666666666,
+     "staticDurationMin": 8.316666666666666,
+     "miles": 2.510339616638829
+    },
+    "driveTypicalTraffic": {
+     "durationMin": 8.516666666666667,
+     "staticDurationMin": 8.316666666666666,
+     "miles": 2.510339616638829
+    }
+   },
+   "errors": []
+  },
+  {
+   "id": "food-zone-391130018022",
+   "google": {
+    "transit": {
+     "arrivalMin": 67.16666666666666,
+     "durationMin": 19.95,
+     "walkStretchesMi": [
+      0.14912908613696016,
+      0.20815934939950687
+     ],
+     "firstBoardAt": "2026-10-13T12:51:11Z",
+     "lastAlightAt": "2026-10-13T13:02:40Z",
+     "lines": [
+      "19"
+     ],
+     "walkOnly": false,
+     "walkMi": 0.357288435536467
+    },
+    "driveNoTraffic": {
+     "durationMin": 9.983333333333333,
+     "staticDurationMin": 9.983333333333333,
+     "miles": 4.182449494949495
+    },
+    "driveTypicalTraffic": {
+     "durationMin": 9.7,
+     "staticDurationMin": 9.983333333333333,
+     "miles": 4.182449494949495
+    }
+   },
+   "errors": []
+  },
+  {
+   "id": "food-zone-391130019005",
+   "google": {
+    "transit": {
+     "arrivalMin": 16.783333333333335,
+     "durationMin": 16.4,
+     "walkStretchesMi": [
+      0.06835083114610674,
+      0.18081901694106417
+     ],
+     "firstBoardAt": "2026-10-13T12:02:15Z",
+     "lastAlightAt": "2026-10-13T12:12:46Z",
+     "lines": [
+      "02"
+     ],
+     "walkOnly": false,
+     "walkMi": 0.2491698480871709
+    },
+    "driveNoTraffic": {
+     "durationMin": 8.066666666666666,
+     "staticDurationMin": 8.066666666666666,
+     "miles": 2.492941223256184
+    },
+    "driveTypicalTraffic": {
+     "durationMin": 8.3,
+     "staticDurationMin": 8.066666666666666,
+     "miles": 2.492941223256184
+    }
+   },
+   "errors": []
+  },
+  {
+   "id": "food-zone-391130024002",
+   "google": {
+    "transit": {
+     "arrivalMin": 16.783333333333335,
+     "durationMin": 12.6,
+     "walkStretchesMi": [
+      0.11681778414061879,
+      0.18081901694106417
+     ],
+     "firstBoardAt": "2026-10-13T12:07:32Z",
+     "lastAlightAt": "2026-10-13T12:12:46Z",
+     "lines": [
+      "02"
+     ],
+     "walkOnly": false,
+     "walkMi": 0.29763680108168294
+    },
+    "driveNoTraffic": {
+     "durationMin": 5.583333333333333,
+     "staticDurationMin": 5.583333333333333,
+     "miles": 1.5882247673586256
+    },
+    "driveTypicalTraffic": {
+     "durationMin": 5.55,
+     "staticDurationMin": 5.583333333333333,
+     "miles": 1.5882247673586256
+    }
+   },
+   "errors": []
+  },
+  {
+   "id": "food-zone-391130035001",
+   "google": {
+    "transit": {
+     "arrivalMin": 35.233333333333334,
+     "durationMin": 13.666666666666666,
+     "walkStretchesMi": [
+      0.17336256263421618,
+      0.04225324107213871
+     ],
+     "firstBoardAt": "2026-10-13T12:25:50Z",
+     "lastAlightAt": "2026-10-13T12:33:55Z",
+     "lines": [
+      "09"
+     ],
+     "walkOnly": false,
+     "walkMi": 0.21561580370635489
+    },
+    "driveNoTraffic": {
+     "durationMin": 6.216666666666667,
+     "staticDurationMin": 6.216666666666667,
+     "miles": 2.1965471645589756
+    },
+    "driveTypicalTraffic": {
+     "durationMin": 6.283333333333333,
+     "staticDurationMin": 6.216666666666667,
+     "miles": 2.1965471645589756
+    }
+   },
+   "errors": []
+  },
+  {
+   "id": "food-zone-391130038002",
+   "google": {
+    "transit": {
+     "arrivalMin": 26.5,
+     "durationMin": 15.383333333333333,
+     "walkStretchesMi": [
+      0.4598146822556271,
+      0.060894376839258725
+     ],
+     "firstBoardAt": "2026-10-13T12:21:14Z",
+     "lastAlightAt": "2026-10-13T12:25:04Z",
+     "lines": [
+      "71"
+     ],
+     "walkOnly": false,
+     "walkMi": 0.5207090590948859
+    },
+    "driveNoTraffic": {
+     "durationMin": 5.016666666666667,
+     "staticDurationMin": 5.016666666666667,
+     "miles": 1.754752246878231
+    },
+    "driveTypicalTraffic": {
+     "durationMin": 4.883333333333334,
+     "staticDurationMin": 5.016666666666667,
+     "miles": 1.754752246878231
+    }
+   },
+   "errors": []
+  },
+  {
+   "id": "food-zone-391130042003",
+   "google": {
+    "transit": {
+     "arrivalMin": 35.233333333333334,
+     "durationMin": 12.983333333333333,
+     "walkStretchesMi": [
+      0.30074365704286965,
+      0.04225324107213871
+     ],
+     "firstBoardAt": "2026-10-13T12:28:15Z",
+     "lastAlightAt": "2026-10-13T12:33:55Z",
+     "lines": [
+      "09"
+     ],
+     "walkOnly": false,
+     "walkMi": 0.34299689811500833
+    },
+    "driveNoTraffic": {
+     "durationMin": 4.433333333333334,
+     "staticDurationMin": 4.433333333333334,
+     "miles": 1.5062037699832975
+    },
+    "driveTypicalTraffic": {
+     "durationMin": 4.466666666666667,
+     "staticDurationMin": 4.433333333333334,
+     "miles": 1.5062037699832975
+    }
+   },
+   "errors": []
+  },
+  {
+   "id": "food-zone-391130208002",
+   "google": {
+    "transit": {
+     "arrivalMin": 21.666666666666668,
+     "durationMin": 14.983333333333333,
+     "walkStretchesMi": [
+      0.5704187544738726,
+      0.038525013918714705
+     ],
+     "firstBoardAt": "2026-10-13T12:20:02Z",
+     "lastAlightAt": "2026-10-13T12:20:49Z",
+     "lines": [
+      "06"
+     ],
+     "walkOnly": false,
+     "walkMi": 0.6089437683925872
+    },
+    "driveNoTraffic": {
+     "durationMin": 3.95,
+     "staticDurationMin": 3.95,
+     "miles": 0.8860753201304382
+    },
+    "driveTypicalTraffic": {
+     "durationMin": 3.8666666666666667,
+     "staticDurationMin": 3.95,
+     "miles": 0.8860753201304382
+    }
+   },
+   "errors": []
+  },
+  {
+   "id": "food-zone-391130505031",
+   "google": {
+    "transit": {
+     "arrivalMin": 30.4,
+     "durationMin": 30.4,
+     "walkStretchesMi": [
+      1.4558727034120735
+     ],
+     "firstBoardAt": null,
+     "lastAlightAt": null,
+     "lines": [],
+     "walkOnly": true,
+     "walkMi": 1.4558727034120735
+    },
+    "driveNoTraffic": {
+     "durationMin": 5.433333333333334,
+     "staticDurationMin": 5.433333333333334,
+     "miles": 1.531058617672791
+    },
+    "driveTypicalTraffic": {
+     "durationMin": 5.266666666666667,
+     "staticDurationMin": 5.433333333333334,
+     "miles": 1.531058617672791
+    }
+   },
+   "errors": []
+  },
+  {
+   "id": "food-zone-391130702011",
+   "google": {
+    "transit": {
+     "arrivalMin": 32.983333333333334,
+     "durationMin": 28.85,
+     "walkStretchesMi": [
+      0.2106448341684562,
+      0.0,
+      0.10128350433468543
+     ],
+     "firstBoardAt": "2026-10-13T12:09:00Z",
+     "lastAlightAt": "2026-10-13T12:30:36Z",
+     "lines": [
+      "04",
+      "71"
+     ],
+     "walkOnly": false,
+     "walkMi": 0.31192833850314167
+    },
+    "driveNoTraffic": {
+     "durationMin": 7.016666666666667,
+     "staticDurationMin": 7.016666666666667,
+     "miles": 3.784150560725364
+    },
+    "driveTypicalTraffic": {
+     "durationMin": 7.05,
+     "staticDurationMin": 7.016666666666667,
+     "miles": 3.784150560725364
+    }
+   },
+   "errors": []
+  },
+  {
+   "id": "food-zone-391130805005",
+   "google": {
+    "transit": {
+     "arrivalMin": 36.75,
+     "durationMin": 12.25,
+     "walkStretchesMi": [
+      0.26097590073968024,
+      0.07705002783742941
+     ],
+     "firstBoardAt": "2026-10-13T12:30:36Z",
+     "lastAlightAt": "2026-10-13T12:35:00Z",
+     "lines": [
+      "17"
+     ],
+     "walkOnly": false,
+     "walkMi": 0.33802592857710967
+    },
+    "driveNoTraffic": {
+     "durationMin": 6.216666666666667,
+     "staticDurationMin": 6.216666666666667,
+     "miles": 1.8982889922850552
+    },
+    "driveTypicalTraffic": {
+     "durationMin": 5.983333333333333,
+     "staticDurationMin": 6.216666666666667,
+     "miles": 1.8982889922850552
+    }
+   },
+   "errors": []
+  },
+  {
+   "id": "food-zone-391130903023",
+   "google": {
+    "transit": {
+     "arrivalMin": 67.16666666666666,
+     "durationMin": 16.716666666666665,
+     "walkStretchesMi": [
+      0.2491698480871709,
+      0.20815934939950687
+     ],
+     "firstBoardAt": "2026-10-13T12:56:37Z",
+     "lastAlightAt": "2026-10-13T13:02:40Z",
+     "lines": [
+      "19"
+     ],
+     "walkOnly": false,
+     "walkMi": 0.4573291974866778
+    },
+    "driveNoTraffic": {
+     "durationMin": 7.033333333333333,
+     "staticDurationMin": 7.033333333333333,
+     "miles": 2.4537948381452317
+    },
+    "driveTypicalTraffic": {
+     "durationMin": 6.866666666666666,
+     "staticDurationMin": 7.033333333333333,
+     "miles": 2.4537948381452317
+    }
+   },
+   "errors": []
+  },
+  {
+   "id": "food-zone-391131251021",
+   "google": {
+    "transit": {
+     "arrivalMin": 18.583333333333332,
+     "durationMin": 11.6,
+     "walkStretchesMi": [
+      0.0987980195657361,
+      0.25289807524059493
+     ],
+     "firstBoardAt": "2026-10-13T12:09:06Z",
+     "lastAlightAt": "2026-10-13T12:12:44Z",
+     "lines": [
+      "16"
+     ],
+     "walkOnly": false,
+     "walkMi": 0.351696094806331
+    },
+    "driveNoTraffic": {
+     "durationMin": 5.15,
+     "staticDurationMin": 5.15,
+     "miles": 1.5975453352421856
+    },
+    "driveTypicalTraffic": {
+     "durationMin": 5.016666666666667,
+     "staticDurationMin": 5.15,
+     "miles": 1.5969239640499482
+    }
+   },
+   "errors": []
+  },
+  {
+   "id": "high-need-391130002002",
+   "google": {
+    "transit": {
+     "arrivalMin": 5.25,
+     "durationMin": 5.25,
+     "walkStretchesMi": [
+      0.23239282589676288
+     ],
+     "firstBoardAt": null,
+     "lastAlightAt": null,
+     "lines": [],
+     "walkOnly": true,
+     "walkMi": 0.23239282589676288
+    },
+    "driveNoTraffic": {
+     "durationMin": 1.6,
+     "staticDurationMin": 1.6,
+     "miles": 0.2709178398154776
+    },
+    "driveTypicalTraffic": {
+     "durationMin": 1.5666666666666667,
+     "staticDurationMin": 1.6,
+     "miles": 0.2709178398154776
+    }
+   },
+   "errors": []
+  },
+  {
+   "id": "high-need-391130003002",
+   "google": {
+    "transit": {
+     "arrivalMin": 14.5,
+     "durationMin": 14.5,
+     "walkStretchesMi": [
+      0.6779159707309313
+     ],
+     "firstBoardAt": null,
+     "lastAlightAt": null,
+     "lines": [],
+     "walkOnly": true,
+     "walkMi": 0.6779159707309313
+    },
+    "driveNoTraffic": {
+     "durationMin": 2.716666666666667,
+     "staticDurationMin": 2.716666666666667,
+     "miles": 0.6779159707309313
+    },
+    "driveTypicalTraffic": {
+     "durationMin": 2.683333333333333,
+     "staticDurationMin": 2.716666666666667,
+     "miles": 0.6779159707309313
+    }
+   },
+   "errors": []
+  },
+  {
+   "id": "high-need-391130005003",
+   "google": {
+    "transit": {
+     "arrivalMin": 21.333333333333332,
+     "durationMin": 13.266666666666667,
+     "walkStretchesMi": [
+      0.07021494472281874,
+      0.340511413346059
+     ],
+     "firstBoardAt": "2026-10-13T12:09:38Z",
+     "lastAlightAt": "2026-10-13T12:13:38Z",
+     "lines": [
+      "08"
+     ],
+     "walkOnly": false,
+     "walkMi": 0.41072635806887775
+    },
+    "driveNoTraffic": {
+     "durationMin": 3.55,
+     "staticDurationMin": 3.55,
+     "miles": 1.3017726477372147
+    },
+    "driveTypicalTraffic": {
+     "durationMin": 3.433333333333333,
+     "staticDurationMin": 3.55,
+     "miles": 1.3017726477372147
+    }
+   },
+   "errors": []
+  },
+  {
+   "id": "high-need-391130008011",
+   "google": {
+    "transit": {
+     "arrivalMin": 17.85,
+     "durationMin": 7.833333333333333,
+     "walkStretchesMi": [
+      0.11868189771733079,
+      0.07270042949176807
+     ],
+     "firstBoardAt": "2026-10-13T12:12:53Z",
+     "lastAlightAt": "2026-10-13T12:15:54Z",
+     "lines": [
+      "07"
+     ],
+     "walkOnly": false,
+     "walkMi": 0.19138232720909887
+    },
+    "driveNoTraffic": {
+     "durationMin": 3.6,
+     "staticDurationMin": 3.6,
+     "miles": 0.8724051539012169
+    },
+    "driveTypicalTraffic": {
+     "durationMin": 3.4833333333333334,
+     "staticDurationMin": 3.6,
+     "miles": 0.8724051539012169
+    }
+   },
+   "errors": []
+  },
+  {
+   "id": "high-need-391130008023",
+   "google": {
+    "transit": {
+     "arrivalMin": 25.366666666666667,
+     "durationMin": 16.416666666666668,
+     "walkStretchesMi": [
+      0.5343792253241072,
+      0.03417541557305337
+     ],
+     "firstBoardAt": "2026-10-13T12:21:36Z",
+     "lastAlightAt": "2026-10-13T12:24:36Z",
+     "lines": [
+      "08"
+     ],
+     "walkOnly": false,
+     "walkMi": 0.5685546408971606
+    },
+    "driveNoTraffic": {
+     "durationMin": 4.05,
+     "staticDurationMin": 4.05,
+     "miles": 1.122196373180625
+    },
+    "driveTypicalTraffic": {
+     "durationMin": 4.133333333333334,
+     "staticDurationMin": 4.05,
+     "miles": 1.122196373180625
+    }
+   },
+   "errors": []
+  },
+  {
+   "id": "high-need-391130011001",
+   "google": {
+    "transit": {
+     "arrivalMin": 17.85,
+     "durationMin": 12.333333333333334,
+     "walkStretchesMi": [
+      0.3672303746122644,
+      0.07270042949176807
+     ],
+     "firstBoardAt": "2026-10-13T12:14:35Z",
+     "lastAlightAt": "2026-10-13T12:15:54Z",
+     "lines": [
+      "07"
+     ],
+     "walkOnly": false,
+     "walkMi": 0.43993080410403246
+    },
+    "driveNoTraffic": {
+     "durationMin": 3.3333333333333335,
+     "staticDurationMin": 3.3333333333333335,
+     "miles": 0.7437813171080887
+    },
+    "driveTypicalTraffic": {
+     "durationMin": 3.2666666666666666,
+     "staticDurationMin": 3.3333333333333335,
+     "miles": 0.7437813171080887
+    }
+   },
+   "errors": []
+  },
+  {
+   "id": "high-need-391130015011",
+   "google": {
+    "transit": {
+     "arrivalMin": 21.916666666666664,
+     "durationMin": 8.633333333333333,
+     "walkStretchesMi": [
+      0.1609351387894695,
+      0.08885608048993876
+     ],
+     "firstBoardAt": "2026-10-13T12:17:00Z",
+     "lastAlightAt": "2026-10-13T12:19:43Z",
+     "lines": [
+      "12"
+     ],
+     "walkOnly": false,
+     "walkMi": 0.24979121927940826
+    },
+    "driveNoTraffic": {
+     "durationMin": 3.95,
+     "staticDurationMin": 3.95,
+     "miles": 1.0004076195021077
+    },
+    "driveTypicalTraffic": {
+     "durationMin": 4.0,
+     "staticDurationMin": 3.95,
+     "miles": 1.0004076195021077
+    }
+   },
+   "errors": []
+  },
+  {
+   "id": "high-need-391130022002",
+   "google": {
+    "transit": {
+     "arrivalMin": 10.25,
+     "durationMin": 10.25,
+     "walkStretchesMi": [
+      0.4330957209894218
+     ],
+     "firstBoardAt": null,
+     "lastAlightAt": null,
+     "lines": [],
+     "walkOnly": true,
+     "walkMi": 0.4330957209894218
+    },
+    "driveNoTraffic": {
+     "durationMin": 3.1666666666666665,
+     "staticDurationMin": 3.1666666666666665,
+     "miles": 0.57104012566611
+    },
+    "driveTypicalTraffic": {
+     "durationMin": 3.183333333333333,
+     "staticDurationMin": 3.1666666666666665,
+     "miles": 0.57104012566611
+    }
+   },
+   "errors": []
+  },
+  {
+   "id": "high-need-391130025005",
+   "google": {
+    "transit": {
+     "arrivalMin": 17.516666666666666,
+     "durationMin": 17.516666666666666,
+     "walkStretchesMi": [
+      0.8295305416368408
+     ],
+     "firstBoardAt": null,
+     "lastAlightAt": null,
+     "lines": [],
+     "walkOnly": true,
+     "walkMi": 0.8295305416368408
+    },
+    "driveNoTraffic": {
+     "durationMin": 3.1,
+     "staticDurationMin": 3.1,
+     "miles": 0.8525212757496222
+    },
+    "driveTypicalTraffic": {
+     "durationMin": 3.1166666666666667,
+     "staticDurationMin": 3.1,
+     "miles": 0.8525212757496222
+    }
+   },
+   "errors": []
+  },
+  {
+   "id": "high-need-391130033004",
+   "google": {
+    "transit": {
+     "arrivalMin": 15.683333333333334,
+     "durationMin": 15.683333333333334,
+     "walkStretchesMi": [
+      0.7263829237254434
+     ],
+     "firstBoardAt": null,
+     "lastAlightAt": null,
+     "lines": [],
+     "walkOnly": true,
+     "walkMi": 0.7263829237254434
+    },
+    "driveNoTraffic": {
+     "durationMin": 4.25,
+     "staticDurationMin": 4.25,
+     "miles": 0.9941939075797344
+    },
+    "driveTypicalTraffic": {
+     "durationMin": 4.216666666666667,
+     "staticDurationMin": 4.25,
+     "miles": 0.9941939075797344
+    }
+   },
+   "errors": []
+  },
+  {
+   "id": "high-need-391130042002",
+   "google": {
+    "transit": {
+     "arrivalMin": 8.133333333333333,
+     "durationMin": 8.133333333333333,
+     "walkStretchesMi": [
+      0.32808398950131235
+     ],
+     "firstBoardAt": null,
+     "lastAlightAt": null,
+     "lines": [],
+     "walkOnly": true,
+     "walkMi": 0.32808398950131235
+    },
+    "driveNoTraffic": {
+     "durationMin": 2.316666666666667,
+     "staticDurationMin": 2.316666666666667,
+     "miles": 0.6132933667382486
+    },
+    "driveTypicalTraffic": {
+     "durationMin": 2.35,
+     "staticDurationMin": 2.316666666666667,
+     "miles": 0.6132933667382486
+    }
+   },
+   "errors": []
+  },
+  {
+   "id": "high-need-391130203001",
+   "google": {
+    "transit": {
+     "arrivalMin": 8.033333333333333,
+     "durationMin": 8.033333333333333,
+     "walkStretchesMi": [
+      0.33926867096158436
+     ],
+     "firstBoardAt": null,
+     "lastAlightAt": null,
+     "lines": [],
+     "walkOnly": true,
+     "walkMi": 0.33926867096158436
+    },
+    "driveNoTraffic": {
+     "durationMin": 3.2,
+     "staticDurationMin": 3.2,
+     "miles": 0.36474488984331505
+    },
+    "driveTypicalTraffic": {
+     "durationMin": 3.1666666666666665,
+     "staticDurationMin": 3.2,
+     "miles": 0.36474488984331505
+    }
+   },
+   "errors": []
+  },
+  {
+   "id": "high-need-391130801002",
+   "google": {
+    "transit": {
+     "arrivalMin": 21.716666666666665,
+     "durationMin": 21.716666666666665,
+     "walkStretchesMi": [
+      0.9923297940030223
+     ],
+     "firstBoardAt": null,
+     "lastAlightAt": null,
+     "lines": [],
+     "walkOnly": true,
+     "walkMi": 0.9923297940030223
+    },
+    "driveNoTraffic": {
+     "durationMin": 3.4,
+     "staticDurationMin": 3.4,
+     "miles": 0.991708422810785
+    },
+    "driveTypicalTraffic": {
+     "durationMin": 3.433333333333333,
+     "staticDurationMin": 3.4,
+     "miles": 0.991708422810785
+    }
+   },
+   "errors": []
+  },
+  {
+   "id": "high-need-391130803002",
+   "google": {
+    "transit": {
+     "arrivalMin": 10.45,
+     "durationMin": 10.45,
+     "walkStretchesMi": [
+      0.4877763859063072
+     ],
+     "firstBoardAt": null,
+     "lastAlightAt": null,
+     "lines": [],
+     "walkOnly": true,
+     "walkMi": 0.4877763859063072
+    },
+    "driveNoTraffic": {
+     "durationMin": 2.183333333333333,
+     "staticDurationMin": 2.183333333333333,
+     "miles": 0.5045534080967151
+    },
+    "driveTypicalTraffic": {
+     "durationMin": 2.1166666666666667,
+     "staticDurationMin": 2.183333333333333,
+     "miles": 0.5045534080967151
+    }
+   },
+   "errors": []
+  },
+  {
+   "id": "high-need-391130804002",
+   "google": {
+    "transit": {
+     "arrivalMin": 29.833333333333336,
+     "durationMin": 28.6,
+     "walkStretchesMi": [
+      0.1627992523661815,
+      0.12178875367851745
+     ],
+     "firstBoardAt": "2026-10-13T12:05:01Z",
+     "lastAlightAt": "2026-10-13T12:27:10Z",
+     "lines": [
+      "16"
+     ],
+     "walkOnly": false,
+     "walkMi": 0.28458800604469897
+    },
+    "driveNoTraffic": {
+     "durationMin": 12.983333333333333,
+     "staticDurationMin": 12.983333333333333,
+     "miles": 5.824112184840531
+    },
+    "driveTypicalTraffic": {
+     "durationMin": 12.883333333333333,
+     "staticDurationMin": 12.983333333333333,
+     "miles": 5.824112184840531
+    }
+   },
+   "errors": []
+  },
+  {
+   "id": "urban-391130001001",
+   "google": {
+    "transit": {
+     "arrivalMin": 10.633333333333333,
+     "durationMin": 10.633333333333333,
+     "walkStretchesMi": [
+      0.3038505130040563,
+      0.013670166229221348
+     ],
+     "firstBoardAt": "2026-10-13T12:07:02Z",
+     "lastAlightAt": "2026-10-13T12:10:21Z",
+     "lines": [
+      "71"
+     ],
+     "walkOnly": false,
+     "walkMi": 0.31752067923327765
+    },
+    "driveNoTraffic": {
+     "durationMin": 3.9,
+     "staticDurationMin": 3.9,
+     "miles": 1.3595601686152867
+    },
+    "driveTypicalTraffic": {
+     "durationMin": 3.816666666666667,
+     "staticDurationMin": 3.9,
+     "miles": 1.3595601686152867
+    }
+   },
+   "errors": []
+  },
+  {
+   "id": "urban-391130022003",
+   "google": {
+    "transit": {
+     "arrivalMin": 15.2,
+     "durationMin": 15.2,
+     "walkStretchesMi": [
+      0.66424580450171
+     ],
+     "firstBoardAt": null,
+     "lastAlightAt": null,
+     "lines": [],
+     "walkOnly": true,
+     "walkMi": 0.66424580450171
+    },
+    "driveNoTraffic": {
+     "durationMin": 4.883333333333334,
+     "staticDurationMin": 4.883333333333334,
+     "miles": 0.6555466078103873
+    },
+    "driveTypicalTraffic": {
+     "durationMin": 4.883333333333334,
+     "staticDurationMin": 4.883333333333334,
+     "miles": 0.6555466078103873
+    }
+   },
+   "errors": []
+  },
+  {
+   "id": "urban-391130029003",
+   "google": {
+    "transit": {
+     "arrivalMin": 10.566666666666666,
+     "durationMin": 10.566666666666666,
+     "walkStretchesMi": [
+      0.48591227232959516
+     ],
+     "firstBoardAt": null,
+     "lastAlightAt": null,
+     "lines": [],
+     "walkOnly": true,
+     "walkMi": 0.48591227232959516
+    },
+    "driveNoTraffic": {
+     "durationMin": 2.2,
+     "staticDurationMin": 2.2,
+     "miles": 0.5977590869323153
+    },
+    "driveTypicalTraffic": {
+     "durationMin": 2.2,
+     "staticDurationMin": 2.2,
+     "miles": 0.5977590869323153
+    }
+   },
+   "errors": []
+  },
+  {
+   "id": "urban-391130039002",
+   "google": {
+    "transit": {
+     "arrivalMin": 26.5,
+     "durationMin": 18.116666666666667,
+     "walkStretchesMi": [
+      0.5151167183647498,
+      0.060894376839258725
+     ],
+     "firstBoardAt": "2026-10-13T12:20:21Z",
+     "lastAlightAt": "2026-10-13T12:25:04Z",
+     "lines": [
+      "71"
+     ],
+     "walkOnly": false,
+     "walkMi": 0.5760110952040086
+    },
+    "driveNoTraffic": {
+     "durationMin": 6.516666666666667,
+     "staticDurationMin": 6.516666666666667,
+     "miles": 2.1536725522945996
+    },
+    "driveTypicalTraffic": {
+     "durationMin": 6.283333333333333,
+     "staticDurationMin": 6.516666666666667,
+     "miles": 2.1536725522945996
+    }
+   },
+   "errors": []
+  },
+  {
+   "id": "urban-391130209002",
+   "google": {
+    "transit": {
+     "arrivalMin": 22.5,
+     "durationMin": 16.283333333333335,
+     "walkStretchesMi": [
+      0.18951821363238686,
+      0.4809413027916965
+     ],
+     "firstBoardAt": "2026-10-13T12:10:45Z",
+     "lastAlightAt": "2026-10-13T12:11:35Z",
+     "lines": [
+      "17"
+     ],
+     "walkOnly": false,
+     "walkMi": 0.6704595164240833
+    },
+    "driveNoTraffic": {
+     "durationMin": 4.333333333333333,
+     "staticDurationMin": 4.333333333333333,
+     "miles": 1.1781197804819852
+    },
+    "driveTypicalTraffic": {
+     "durationMin": 4.283333333333333,
+     "staticDurationMin": 4.333333333333333,
+     "miles": 1.1781197804819852
+    }
+   },
+   "errors": []
+  },
+  {
+   "id": "urban-391130301001",
+   "google": {
+    "transit": {
+     "arrivalMin": 13.583333333333334,
+     "durationMin": 13.583333333333334,
+     "walkStretchesMi": [
+      0.6077010260081126
+     ],
+     "firstBoardAt": null,
+     "lastAlightAt": null,
+     "lines": [],
+     "walkOnly": true,
+     "walkMi": 0.6077010260081126
+    },
+    "driveNoTraffic": {
+     "durationMin": 2.683333333333333,
+     "staticDurationMin": 2.683333333333333,
+     "miles": 0.6685954028473713
+    },
+    "driveTypicalTraffic": {
+     "durationMin": 2.6166666666666667,
+     "staticDurationMin": 2.683333333333333,
+     "miles": 0.6692167740396087
+    }
+   },
+   "errors": []
+  },
+  {
+   "id": "urban-391130906001",
+   "google": {
+    "transit": {
+     "arrivalMin": 53.583333333333336,
+     "durationMin": 47.5,
+     "walkStretchesMi": [
+      1.747295792571383,
+      0.24979121927940826
+     ],
+     "firstBoardAt": "2026-10-13T12:44:29Z",
+     "lastAlightAt": "2026-10-13T12:47:59Z",
+     "lines": [
+      "01"
+     ],
+     "walkOnly": false,
+     "walkMi": 1.9970870118507913
+    },
+    "driveNoTraffic": {
+     "durationMin": 7.133333333333334,
+     "staticDurationMin": 7.133333333333334,
+     "miles": 2.679352580927384
+    },
+    "driveTypicalTraffic": {
+     "durationMin": 7.166666666666667,
+     "staticDurationMin": 7.133333333333334,
+     "miles": 2.679352580927384
+    }
+   },
+   "errors": []
+  },
+  {
+   "id": "suburban-391130003001",
+   "google": {
+    "transit": {
+     "arrivalMin": 11.866666666666667,
+     "durationMin": 11.866666666666667,
+     "walkStretchesMi": [
+      0.5642050425514993
+     ],
+     "firstBoardAt": null,
+     "lastAlightAt": null,
+     "lines": [],
+     "walkOnly": true,
+     "walkMi": 0.5642050425514993
+    },
+    "driveNoTraffic": {
+     "durationMin": 3.183333333333333,
+     "staticDurationMin": 3.183333333333333,
+     "miles": 0.6014873140857393
+    },
+    "driveTypicalTraffic": {
+     "durationMin": 3.183333333333333,
+     "staticDurationMin": 3.183333333333333,
+     "miles": 0.6014873140857393
+    }
+   },
+   "errors": []
+  },
+  {
+   "id": "suburban-391130201001",
+   "google": {
+    "transit": {
+     "arrivalMin": 28.533333333333335,
+     "durationMin": 28.533333333333335,
+     "walkStretchesMi": [
+      1.2011105145947665
+     ],
+     "firstBoardAt": null,
+     "lastAlightAt": null,
+     "lines": [],
+     "walkOnly": true,
+     "walkMi": 1.2011105145947665
+    },
+    "driveNoTraffic": {
+     "durationMin": 3.3333333333333335,
+     "staticDurationMin": 3.3333333333333335,
+     "miles": 1.3092291020440627
+    },
+    "driveTypicalTraffic": {
+     "durationMin": 3.3,
+     "staticDurationMin": 3.3333333333333335,
+     "miles": 1.3092291020440627
+    }
+   },
+   "errors": []
+  },
+  {
+   "id": "suburban-391130219002",
+   "google": {
+    "transit": {
+     "arrivalMin": 26.616666666666667,
+     "durationMin": 16.233333333333334,
+     "walkStretchesMi": [
+      0.22742185635886422,
+      0.3044718841962936
+     ],
+     "firstBoardAt": "2026-10-13T12:15:41Z",
+     "lastAlightAt": "2026-10-13T12:19:39Z",
+     "lines": [
+      "16"
+     ],
+     "walkOnly": false,
+     "walkMi": 0.5318937405551578
+    },
+    "driveNoTraffic": {
+     "durationMin": 4.8,
+     "staticDurationMin": 4.8,
+     "miles": 1.9479986876640418
+    },
+    "driveTypicalTraffic": {
+     "durationMin": 4.75,
+     "staticDurationMin": 4.8,
+     "miles": 1.9479986876640418
+    }
+   },
+   "errors": []
+  },
+  {
+   "id": "suburban-391130404032",
+   "google": {
+    "transit": {
+     "arrivalMin": 14.933333333333334,
+     "durationMin": 13.75,
+     "walkStretchesMi": [
+      0.13421617752326415,
+      0.20629523582279488
+     ],
+     "firstBoardAt": "2026-10-13T12:04:34Z",
+     "lastAlightAt": "2026-10-13T12:10:07Z",
+     "lines": [
+      "06"
+     ],
+     "walkOnly": false,
+     "walkMi": 0.340511413346059
+    },
+    "driveNoTraffic": {
+     "durationMin": 6.6,
+     "staticDurationMin": 6.6,
+     "miles": 2.3531327050027837
+    },
+    "driveTypicalTraffic": {
+     "durationMin": 6.9,
+     "staticDurationMin": 6.6,
+     "miles": 2.3531327050027837
+    }
+   },
+   "errors": []
+  },
+  {
+   "id": "suburban-391130505044",
+   "google": {
+    "transit": {
+     "arrivalMin": 28.35,
+     "durationMin": 24.95,
+     "walkStretchesMi": [
+      0.24047065139584825,
+      0.7425385747236141
+     ],
+     "firstBoardAt": "2026-10-13T12:08:38Z",
+     "lastAlightAt": "2026-10-13T12:12:00Z",
+     "lines": [
+      "71"
+     ],
+     "walkOnly": false,
+     "walkMi": 0.9830092261194623
+    },
+    "driveNoTraffic": {
+     "durationMin": 5.45,
+     "staticDurationMin": 5.45,
+     "miles": 1.6777022190408017
+    },
+    "driveTypicalTraffic": {
+     "durationMin": 5.0,
+     "staticDurationMin": 5.45,
+     "miles": 1.6777022190408017
+    }
+   },
+   "errors": []
+  },
+  {
+   "id": "suburban-391130903031",
+   "google": {
+    "transit": {
+     "arrivalMin": 63.81666666666667,
+     "durationMin": 29.283333333333335,
+     "walkStretchesMi": [
+      1.0445249741509584,
+      0.2218295156287282
+     ],
+     "firstBoardAt": "2026-10-13T12:57:00Z",
+     "lastAlightAt": "2026-10-13T12:58:49Z",
+     "lines": [
+      "19"
+     ],
+     "walkOnly": false,
+     "walkMi": 1.2663544897796866
+    },
+    "driveNoTraffic": {
+     "durationMin": 5.15,
+     "staticDurationMin": 5.15,
+     "miles": 1.7404607094567723
+    },
+    "driveTypicalTraffic": {
+     "durationMin": 4.983333333333333,
+     "staticDurationMin": 5.15,
+     "miles": 1.7404607094567723
+    }
+   },
+   "errors": []
+  },
+  {
+   "id": "suburban-391131003012",
+   "google": {
+    "transit": {
+     "arrivalMin": 70.81666666666666,
+     "durationMin": 26.183333333333334,
+     "walkStretchesMi": [
+      0.6039727988546886,
+      0.16777022190408017
+     ],
+     "firstBoardAt": "2026-10-13T12:58:01Z",
+     "lastAlightAt": "2026-10-13T13:06:59Z",
+     "lines": [
+      "18"
+     ],
+     "walkOnly": false,
+     "walkMi": 0.7717430207587688
+    },
+    "driveNoTraffic": {
+     "durationMin": 7.8,
+     "staticDurationMin": 7.8,
+     "miles": 2.822267955141971
+    },
+    "driveTypicalTraffic": {
+     "durationMin": 7.5,
+     "staticDurationMin": 7.8,
+     "miles": 2.822267955141971
+    }
+   },
+   "errors": []
+  },
+  {
+   "id": "rural-391130001003",
+   "google": {
+    "transit": {
+     "arrivalMin": 31.666666666666664,
+     "durationMin": 15.933333333333334,
+     "walkStretchesMi": [
+      0.34361826930724565,
+      0.1665274795196055
+     ],
+     "firstBoardAt": "2026-10-13T12:24:27Z",
+     "lastAlightAt": "2026-10-13T12:28:01Z",
+     "lines": [
+      "X12"
+     ],
+     "walkOnly": false,
+     "walkMi": 0.5101457488268512
+    },
+    "driveNoTraffic": {
+     "durationMin": 4.05,
+     "staticDurationMin": 4.05,
+     "miles": 1.3987065537262386
+    },
+    "driveTypicalTraffic": {
+     "durationMin": 3.966666666666667,
+     "staticDurationMin": 4.05,
+     "miles": 1.3987065537262386
+    }
+   },
+   "errors": []
+  },
+  {
+   "id": "rural-391130204002",
+   "google": {
+    "transit": {
+     "arrivalMin": 12.716666666666667,
+     "durationMin": 8.683333333333334,
+     "walkStretchesMi": [
+      0.2106448341684562,
+      0.07767139902966674
+     ],
+     "firstBoardAt": "2026-10-13T12:09:47Z",
+     "lastAlightAt": "2026-10-13T12:11:00Z",
+     "lines": [
+      "19"
+     ],
+     "walkOnly": false,
+     "walkMi": 0.28831623319812294
+    },
+    "driveNoTraffic": {
+     "durationMin": 1.8666666666666667,
+     "staticDurationMin": 1.8666666666666667,
+     "miles": 0.5561272170524139
+    },
+    "driveTypicalTraffic": {
+     "durationMin": 1.8833333333333333,
+     "staticDurationMin": 1.8666666666666667,
+     "miles": 0.5561272170524139
+    }
+   },
+   "errors": []
+  },
+  {
+   "id": "rural-391130404013",
+   "google": {
+    "transit": {
+     "arrivalMin": 46.11666666666667,
+     "durationMin": 21.783333333333335,
+     "walkStretchesMi": [
+      0.6934502505368647,
+      0.16342062355841883
+     ],
+     "firstBoardAt": "2026-10-13T12:39:26Z",
+     "lastAlightAt": "2026-10-13T12:42:04Z",
+     "lines": [
+      "17"
+     ],
+     "walkOnly": false,
+     "walkMi": 0.8568708740952835
+    },
+    "driveNoTraffic": {
+     "durationMin": 5.933333333333334,
+     "staticDurationMin": 5.933333333333334,
+     "miles": 1.7292760279965005
+    },
+    "driveTypicalTraffic": {
+     "durationMin": 5.933333333333334,
+     "staticDurationMin": 5.933333333333334,
+     "miles": 1.7292760279965005
+    }
+   },
+   "errors": []
+  },
+  {
+   "id": "rural-391130701011",
+   "google": {
+    "transit": {
+     "arrivalMin": 18.75,
+     "durationMin": 13.433333333333334,
+     "walkStretchesMi": [
+      0.17149844905750417,
+      0.07767139902966674
+     ],
+     "firstBoardAt": "2026-10-13T12:09:21Z",
+     "lastAlightAt": "2026-10-13T12:17:05Z",
+     "lines": [
+      "X12"
+     ],
+     "walkOnly": false,
+     "walkMi": 0.2491698480871709
+    },
+    "driveNoTraffic": {
+     "durationMin": 6.233333333333333,
+     "staticDurationMin": 6.233333333333333,
+     "miles": 2.320200031814205
+    },
+    "driveTypicalTraffic": {
+     "durationMin": 6.033333333333333,
+     "staticDurationMin": 6.233333333333333,
+     "miles": 2.320200031814205
+    }
+   },
+   "errors": []
+  },
+  {
+   "id": "rural-391131001022",
+   "google": {
+    "transit": {
+     "arrivalMin": 30.5,
+     "durationMin": 9.6,
+     "walkStretchesMi": [
+      0.08015688379861607,
+      0.06648671756939473
+     ],
+     "firstBoardAt": "2026-10-13T12:22:43Z",
+     "lastAlightAt": "2026-10-13T12:29:00Z",
+     "lines": [
+      "18"
+     ],
+     "walkOnly": false,
+     "walkMi": 0.1466436013680108
+    },
+    "driveNoTraffic": {
+     "durationMin": 7.033333333333333,
+     "staticDurationMin": 7.033333333333333,
+     "miles": 2.379851666268989
+    },
+    "driveTypicalTraffic": {
+     "durationMin": 6.983333333333333,
+     "staticDurationMin": 7.033333333333333,
+     "miles": 2.379851666268989
+    }
+   },
+   "errors": []
+  },
+  {
+   "id": "rural-391131301011",
+   "google": {
+    "transit": null,
+    "driveNoTraffic": {
+     "durationMin": 12.633333333333333,
+     "staticDurationMin": 12.633333333333333,
+     "miles": 6.142254235266046
+    },
+    "driveTypicalTraffic": {
+     "durationMin": 13.033333333333333,
+     "staticDurationMin": 12.633333333333333,
+     "miles": 6.142254235266046
+    }
+   },
+   "errors": []
+  },
+  {
+   "id": "diagnostic-interior-point-391130602001",
+   "google": {
+    "transit": {
+     "arrivalMin": 118.31666666666666,
+     "durationMin": 74.76666666666667,
+     "walkStretchesMi": [
+      0.6033514276624513,
+      0.014912908613696015,
+      0.0,
+      0.20008152390042153
+     ],
+     "firstBoardAt": "2026-10-13T12:56:54Z",
+     "lastAlightAt": "2026-10-13T13:53:47Z",
+     "lines": [
+      "17",
+      "17",
+      "19"
+     ],
+     "walkOnly": false,
+     "walkMi": 0.8183458601765689
+    },
+    "driveNoTraffic": {
+     "durationMin": 24.433333333333334,
+     "staticDurationMin": 24.433333333333334,
+     "miles": 15.98601666268989
+    },
+    "driveTypicalTraffic": {
+     "durationMin": 24.516666666666666,
+     "staticDurationMin": 24.433333333333334,
+     "miles": 15.98601666268989
+    }
+   },
+   "errors": []
+  },
+  {
+   "id": "diagnostic-lived-in-391130602001",
+   "google": {
+    "transit": {
+     "arrivalMin": 10.7,
+     "durationMin": 10.7,
+     "walkStretchesMi": [
+      0.4883977570985445
+     ],
+     "firstBoardAt": null,
+     "lastAlightAt": null,
+     "lines": [],
+     "walkOnly": true,
+     "walkMi": 0.4883977570985445
+    },
+    "driveNoTraffic": {
+     "durationMin": 1.45,
+     "staticDurationMin": 1.45,
+     "miles": 0.5076602640579019
+    },
+    "driveTypicalTraffic": {
+     "durationMin": 1.45,
+     "staticDurationMin": 1.45,
+     "miles": 0.5076602640579019
+    }
+   },
+   "errors": []
+  }
+ ]
+}

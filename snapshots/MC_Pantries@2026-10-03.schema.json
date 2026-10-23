@@ -1,0 +1,333 @@
+{
+ "copyrightText": "",
+ "description": "",
+ "editingInfo": {
+  "dataLastEditDate": 1785524320769,
+  "lastEditDate": 1785524320769,
+  "schemaLastEditDate": 1785524320769
+ },
+ "fields": [
+  {
+   "alias": "ObjectID",
+   "defaultValue": null,
+   "domain": null,
+   "editable": false,
+   "name": "ObjectID",
+   "nullable": false,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeOID"
+  },
+  {
+   "alias": "ORGANIZATION",
+   "defaultValue": "",
+   "domain": null,
+   "editable": true,
+   "length": 255,
+   "name": "USER_ORGANIZATION",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "alias": "STREET ADDRESS",
+   "defaultValue": "",
+   "domain": null,
+   "editable": true,
+   "length": 255,
+   "name": "USER_STREET_ADDRESS",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "alias": "CITY",
+   "defaultValue": "",
+   "domain": null,
+   "editable": true,
+   "length": 255,
+   "name": "USER_CITY",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "alias": "STATE",
+   "defaultValue": "",
+   "domain": null,
+   "editable": true,
+   "length": 255,
+   "name": "USER_STATE",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "alias": "ZIP CODE",
+   "defaultValue": 0,
+   "domain": null,
+   "editable": true,
+   "name": "USER_ZIP_CODE",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeDouble"
+  },
+  {
+   "alias": "SCHEDULE",
+   "defaultValue": "",
+   "domain": null,
+   "editable": true,
+   "length": 255,
+   "name": "USER_SCHEDULE",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "alias": "DETAILS",
+   "defaultValue": "",
+   "domain": null,
+   "editable": true,
+   "length": 255,
+   "name": "USER_DETAILS",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "alias": "PARTNER",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "length": 255,
+   "name": "Partner",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "alias": "PHONE",
+   "defaultValue": "",
+   "domain": null,
+   "editable": true,
+   "length": 255,
+   "name": "USER_PHONE",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "alias": "WEBSITE",
+   "defaultValue": "",
+   "domain": null,
+   "editable": true,
+   "length": 255,
+   "name": "USER_WEBSITE",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "alias": "NOTES",
+   "defaultValue": "",
+   "domain": null,
+   "editable": true,
+   "length": 255,
+   "name": "USER_NOTES",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "alias": "Loc_name",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "length": 20,
+   "name": "Loc_name",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "alias": "Status",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "length": 1,
+   "name": "Status",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "alias": "Score",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "name": "Score",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeDouble"
+  },
+  {
+   "alias": "Match_type",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "length": 2,
+   "name": "Match_type",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "alias": "Match Address",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "length": 500,
+   "name": "Match_addr",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "alias": "Long Label",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "length": 500,
+   "name": "LongLabel",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "alias": "Short Label",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "length": 500,
+   "name": "ShortLabel",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "alias": "Address Type",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "length": 20,
+   "name": "Addr_type",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "alias": "Rank",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "name": "Rank",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeDouble"
+  },
+  {
+   "alias": "X",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "name": "X",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeDouble"
+  },
+  {
+   "alias": "Y",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "name": "Y",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeDouble"
+  },
+  {
+   "alias": "Display X",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "name": "DisplayX",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeDouble"
+  },
+  {
+   "alias": "Display Y",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "name": "DisplayY",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeDouble"
+  },
+  {
+   "alias": "Minimum X",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "name": "Xmin",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeDouble"
+  },
+  {
+   "alias": "Maximum X",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "name": "Xmax",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeDouble"
+  },
+  {
+   "alias": "Minimum Y",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "name": "Ymin",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeDouble"
+  },
+  {
+   "alias": "Maximum Y",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "name": "Ymax",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeDouble"
+  },
+  {
+   "alias": "MatchID",
+   "defaultValue": null,
+   "domain": null,
+   "editable": true,
+   "length": 500,
+   "name": "MatchID",
+   "nullable": true,
+   "sqlType": "sqlTypeOther",
+   "type": "esriFieldTypeString"
+  }
+ ],
+ "geometryType": "esriGeometryPoint",
+ "maxRecordCount": 2000,
+ "name": "Pantries_GeocodeAddres",
+ "objectIdField": "ObjectID"
+}

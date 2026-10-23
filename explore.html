@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Explore the map · Grocery Lines</title>
+    <link rel="stylesheet" href="./vendor/maplibre-gl-5.24.0/maplibre-gl.css" />
+    <link rel="stylesheet" href="./src/ui/shared/styles.css" />
+  </head>
+  <body>
+    <header class="site-masthead">
+      <a class="site-brand" href="./">Grocery Lines</a>
+      <form id="search-form" class="search" role="search">
+        <label class="visually-hidden" for="search-input">Address, place or zip code</label>
+        <div class="search-field">
+          <input id="search-input" name="search" type="search" autocomplete="street-address" placeholder="Address or zip code" enterkeyhint="search" />
+          <button type="button" id="locate-button" class="icon-button" aria-label="Use my location" title="Use my location">
+            <svg viewBox="0 0 24 24" aria-hidden="true" width="20" height="20"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </button>
+        </div>
+        <button type="submit" id="search-button">Search</button>
+        <p id="search-message" class="search-message" role="status" aria-live="polite"></p>
+      </form>
+      <nav class="site-nav" aria-label="Pages">
+        <a class="site-nav-link" href="./">Story</a>
+        <a class="site-nav-link" href="./explore.html" id="home-link" aria-current="page">Explore</a>
+        <a class="site-nav-link" href="./#methodology">Methodology</a>
+      </nav>
+    </header>
+
+    <main id="map-view" class="map-view">
+      <h1 class="visually-hidden">Explore the Montgomery County food mobility map</h1>
+      <div class="map-key">
+        <section id="legend" class="legend" aria-live="polite"></section>
+      </div>
+      <div class="map-area">
+        <div id="map" class="map" aria-label="Map of travel times, homes and car ownership. Tap anywhere to audit that spot, tap a food place to see the trip, or drag the START pin."></div>
+        <p id="tile-notice" class="tile-notice" role="status" hidden>The street map is not loading. Travel times are still shown.</p>
+        <div class="map-options" id="map-options">
+          <div class="map-options-card">
+            <p class="map-instruction" id="map-instruction"></p>
+            <button type="button" class="map-options-toggle" id="map-options-toggle" aria-expanded="false" aria-controls="map-options-menu"><span>Map options</span><span class="map-options-caret" aria-hidden="true">▾</span></button>
+          </div>
+          <button type="button" id="show-route" class="show-route" hidden>Show route</button>
+          <div class="map-options-menu" id="map-options-menu" role="group" aria-label="Map options" hidden>
+            <div class="travel-controls" id="travel-controls" data-posture="chosen">
+              <p class="travel-locked" id="travel-locked" data-shows="locked"></p>
+              <div class="segmented explore-views" id="explore-views" role="group" aria-label="Map shows" data-shows="explore"></div>
+              <section class="option-group" data-shows="chosen">
+                <p class="option-label" id="mode-label">Colour by</p>
+                <div class="segmented" role="group" aria-labelledby="mode-label">
+                  <button type="button" data-map-mode="bus" aria-pressed="true" aria-label="Bus and walking time"><span data-icon="bus"></span>Bus</button>
+                  <button type="button" data-map-mode="walk" aria-pressed="false"><span data-icon="walk"></span>Walk</button>
+                  <button type="button" data-map-mode="car" aria-pressed="false"><span data-icon="car"></span>Drive</button>
+                </div>
+              </section>
+              <section class="option-group" data-shows="chosen">
+                <p class="option-label" id="period-label">Time of day</p>
+                <div class="segmented" role="group" aria-labelledby="period-label">
+                  <button type="button" data-period="peak" aria-pressed="true">Rush hour</button>
+                  <button type="button" data-period="offPeak" aria-pressed="false">Midday</button>
+                </div>
+              </section>
+              <section class="option-group" data-shows="chosen explore">
+                <p class="option-label">Places</p>
+                <label class="option-switch"><input type="checkbox" data-kind="supermarket" checked><span data-kind-mark="supermarket"></span>Supermarkets</label>
+                <label class="option-switch"><input type="checkbox" data-kind="pantry"><span data-kind-mark="pantry"></span>Pantries</label>
+                <label class="option-switch"><input type="checkbox" data-kind="other-retailer"><span data-kind-mark="other-retailer"></span>Other stores</label>
+                <p id="filter-message" class="filter-message" role="status" aria-live="polite"></p>
+              </section>
+            </div>
+            <section class="option-group">
+              <p class="option-label" id="high-need-label">High-need areas</p>
+              <div class="segmented" id="high-need-views" role="group" aria-labelledby="high-need-label">
+                <button type="button" data-high-need-view="outline" aria-pressed="true">Outline</button>
+                <button type="button" data-high-need-view="only" aria-pressed="false">Only high-need</button>
+                <button type="button" data-high-need-view="off" aria-pressed="false">Off</button>
+              </div>
+            </section>
+            <section class="option-group">
+              <p class="option-label">Layers</p>
+              <label class="option-switch"><input type="checkbox" id="show-bus-routes"><span data-icon="bus"></span>Bus routes</label>
+              <label class="option-switch"><input type="checkbox" id="show-lila-tracts"> USDA low-income, low-access tracts</label>
+            </section>
+            <section class="option-group">
+              <p class="option-label" id="size-label">Hexagon size</p>
+              <div class="segmented" id="hexagon-size" role="group" aria-labelledby="size-label">
+                <button type="button" data-hexagon-size="equal" aria-pressed="true">Equal</button>
+                <button type="button" data-hexagon-size="population" aria-pressed="false">By population</button>
+              </div>
+            </section>
+            <section class="option-group">
+              <p class="option-label" id="cutoff-label">High-need threshold</p>
+              <div class="segmented" id="cutoff-choices" role="group" aria-labelledby="cutoff-label"></div>
+            </section>
+            <section class="option-group">
+              <p class="option-label">Data</p>
+              <button type="button" class="link-button" id="download-high-need-csv"><span data-icon="download"></span>Export high-need area data (CSV)</button>
+            </section>
+          </div>
+        </div>
+      </div>
+      <aside id="drawer" class="drawer" data-snap="peek" aria-label="Trips from the start">
+        <button type="button" id="drawer-handle" class="drawer-handle" aria-label="Resize the panel"></button>
+        <div id="drawer-body" class="drawer-body"></div>
+        <div class="drawer-footer">
+          <a href="./" class="footer-link">The story</a>
+          <a href="./#methodology" class="footer-link">Methodology</a>
+          <button type="button" id="share-button" class="link-button">Copy a link to this view</button>
+          <span id="share-message" role="status" aria-live="polite"></span>
+        </div>
+      </aside>
+    </main>
+
+        <div id="loading" class="loading" role="status">
+      <p>Loading food places, bus routes and travel times…</p>
+    </div>
+    <p id="load-error" class="load-error" role="alert" hidden></p>
+
+    <script src="./vendor/maplibre-gl-5.24.0/maplibre-gl.js"></script>
+    <script src="./vendor/pmtiles-4.5.0/pmtiles.js"></script>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
